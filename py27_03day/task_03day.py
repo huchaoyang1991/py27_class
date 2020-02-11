@@ -14,8 +14,8 @@ phone = '130'
 for i in range(8):
     num = str(random.randint(0, 9))
     phone += num
-# num = random.randint(10000000, 99999999)
-# print('130' + str(num))
+# num = random.randint(100000000, 999999999)
+# print('130' + str(num)[1:])
 print(phone)
 
 # 3、有一个如下列表，请编写代码，提示用户输入1-7中的数字，分别代表周一到周日，根据用户输入，打印输出“今天是周X”（要求：使用上课学过的知识点来做）

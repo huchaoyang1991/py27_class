@@ -11,27 +11,29 @@ s_blank = ' '
 str2 = s_blank.join(li)
 print(str2)
 
-# # 2、字典的增删查改操作： 某比赛需要获取你的个人信息，编写一段代码要求如下：
-# #         1、运行时分别提醒输入 姓名、性别、年龄 ，输入完了，请将数据通过字典存储起来，
-# dic = {}
-# dic['name'] = input("请输入姓名：")
-# dic['sex'] = input("请输入性别：")
-# dic['age'] = input("请输入年龄：")
-# print(dic)
-# #         2、数据存储完了，然后输出个人介绍，格式如下: 我的名字XXX，今年XXX岁，性别XX，喜欢敲代码
-# # info = "我的名字{name},今年{age}岁,性别{sex},喜欢敲代码".format(**dic)
-# info = "我的名字{name},今年{age}岁,性别{sex},喜欢敲代码".format_map(dic)
-# print(info)
-# #         3、有一个人对你很感兴趣，平台需要您补足您的身高和联系方式；
-# dic['height'] = input("请输入您的身高：")
-# dic['phone'] = input("请输入您的联系方式：")
-# print(dic)
-# #         4、平台为了保护你的隐私，需要你删除你的联系方式；
-# dic.pop('phone')
-# print(dic)
-# #         5、你为了取得更好的成绩， 你添加了一项自己的擅长技能。
-# dic['skill'] = input("请输入你的擅长技能：")
-# print(dic)
+# 2、字典的增删查改操作： 某比赛需要获取你的个人信息，编写一段代码要求如下：
+#         1、运行时分别提醒输入 姓名、性别、年龄 ，输入完了，请将数据通过字典存储起来，
+dic = {}
+dic['name'] = input("请输入姓名：")
+dic['sex'] = input("请输入性别：")
+dic['age'] = input("请输入年龄：")
+print(dic)
+#         2、数据存储完了，然后输出个人介绍，格式如下: 我的名字XXX，今年XXX岁，性别XX，喜欢敲代码
+# info = "我的名字{name},今年{age}岁,性别{sex},喜欢敲代码".format(**dic)
+info = "我的名字{name},今年{age}岁,性别{sex},喜欢敲代码".format_map(dic)
+print(info)
+#         3、有一个人对你很感兴趣，平台需要您补足您的身高和联系方式；
+dic['height'] = input("请输入您的身高：")
+dic['phone'] = input("请输入您的联系方式：")
+print(dic)
+#         4、平台为了保护你的隐私，需要你删除你的联系方式；
+dic.pop('phone')
+print(dic)
+#         5、你为了取得更好的成绩， 你添加了一项自己的擅长技能。
+li = []
+li.append(input("请输入你的一个擅长技能"))
+dic['skill'] = li
+print(dic)
 # 3、利用下划线将列表li=[“python”,“java”,“php”]的元素拼接成一个字符串，然后将所有字母转换为大写，
 li = ["python", "java", "php"]
 s_blank = '_'

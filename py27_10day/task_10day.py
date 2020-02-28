@@ -18,8 +18,8 @@
 #                 f2.write(f1)
 
 
-path = os.path.dirname(__file__)  # 获取当前文件目录的绝对路径
-copy_file(path)
+# path = os.path.dirname(__file__)  # 获取当前文件目录的绝对路径
+# copy_file(path)
 # 第二题：当前有一个case.txt文件，里面中存储了很多用例数据: 如下，每一行数据就是一条用例数据，
 
 # # 文件中数据（可以先直接复制到文件中）

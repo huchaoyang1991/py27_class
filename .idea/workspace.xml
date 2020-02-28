@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d346e650-2bb1-46ce-8c6c-8896f6a3b8be" name="Default Changelist" comment="" />
+    <list default="true" id="d346e650-2bb1-46ce-8c6c-8896f6a3b8be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_10day/01模块的导入.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_10day/02关于__name__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_10day/03查看模块导入的搜索路径.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_10day/04os模块的学习.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_10day/05os模块中的扩展方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_10day/case.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_10day/module01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_10day/task_10day.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_10day/work1.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/py27_10day/task_10day.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="215">
-              <caret line="20" selection-start-line="20" selection-start-column="2" selection-end-line="21" selection-end-column="17" />
+              <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -354,12 +365,12 @@
       <workItem from="1582450999012" duration="1509000" />
       <workItem from="1582452752186" duration="3381000" />
       <workItem from="1582722285672" duration="9407000" />
-      <workItem from="1582900424516" duration="5157000" />
+      <workItem from="1582900424516" duration="5458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69596000" />
+    <option name="totallyTimeSpent" value="69897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -749,7 +760,7 @@
     <entry file="file://$PROJECT_DIR$/py27_10day/task_10day.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="20" selection-start-line="20" selection-start-column="2" selection-end-line="21" selection-end-column="17" />
+          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
         </state>
       </provider>
     </entry>

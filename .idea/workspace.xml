@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d346e650-2bb1-46ce-8c6c-8896f6a3b8be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/py27_10day/add_files" beforeDir="false" />
-    </list>
+    <list default="true" id="d346e650-2bb1-46ce-8c6c-8896f6a3b8be" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py27_10day/task_10day.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="9" column="18" selection-start-line="4" selection-start-column="2" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="215">
+              <caret line="20" selection-start-line="20" selection-start-column="2" selection-end-line="21" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -356,18 +354,17 @@
       <workItem from="1582450999012" duration="1509000" />
       <workItem from="1582452752186" duration="3381000" />
       <workItem from="1582722285672" duration="9407000" />
-      <workItem from="1582900424516" duration="4902000" />
+      <workItem from="1582900424516" duration="5157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69341000" />
+    <option name="totallyTimeSpent" value="69596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.108742006" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.108742006" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -381,7 +378,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32683983" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32683983" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -751,8 +748,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/py27_10day/task_10day.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="9" column="18" selection-start-line="4" selection-start-column="2" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="215">
+          <caret line="20" selection-start-line="20" selection-start-column="2" selection-end-line="21" selection-end-column="17" />
         </state>
       </provider>
     </entry>

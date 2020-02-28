@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d346e650-2bb1-46ce-8c6c-8896f6a3b8be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_10day/add_files" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,10 +34,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/py27_10day/task_10day.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="9" column="18" selection-start-line="4" selection-start-column="2" selection-end-line="17" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py27_11day/task_11day.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1550">
-              <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+            <state relative-caret-position="434">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -92,15 +101,15 @@
         <option value="$PROJECT_DIR$/py27_09day/task_09day.py" />
         <option value="$PROJECT_DIR$/py27_09day/game.txt" />
         <option value="$PROJECT_DIR$/py27_10day/url_file.txt" />
-        <option value="$PROJECT_DIR$/py27_10day/task_10day.py" />
         <option value="$PROJECT_DIR$/py27_10day/123123.py" />
         <option value="$PROJECT_DIR$/py27_10day/03查看模块导入的搜索路径.py" />
         <option value="$PROJECT_DIR$/py27_11day/task_05day.py" />
         <option value="$PROJECT_DIR$/py27_11day/task_11day.py" />
+        <option value="$PROJECT_DIR$/py27_10day/task_10day.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1190" />
     <option name="y" value="84" />
     <option name="width" value="717" />
@@ -147,6 +156,11 @@
               <item name="py27_class" type="b2602c69:ProjectViewProjectNode" />
               <item name="py27_class" type="462c0819:PsiDirectoryNode" />
               <item name="py27_10day" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="py27_class" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py27_class" type="462c0819:PsiDirectoryNode" />
+              <item name="py27_11day" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="py27_class" type="b2602c69:ProjectViewProjectNode" />
@@ -342,23 +356,23 @@
       <workItem from="1582450999012" duration="1509000" />
       <workItem from="1582452752186" duration="3381000" />
       <workItem from="1582722285672" duration="9407000" />
-      <workItem from="1582900424516" duration="4590000" />
+      <workItem from="1582900424516" duration="4902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69029000" />
+    <option name="totallyTimeSpent" value="69341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.108742006" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.108742006" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32683983" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32683983" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -590,13 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py27_10day/add_files">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8252">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/py27_09day/03文件的写入操作.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1426">
@@ -723,17 +730,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py27_10day/task_10day.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+    <entry file="file://$PROJECT_DIR$/py27_10day/add_files">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="1300">
+          <caret line="49247" column="14" lean-forward="true" selection-start-line="49247" selection-start-column="14" selection-end-line="49247" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-8252">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py27_11day/task_11day.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1550">
-          <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        <state relative-caret-position="434">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py27_10day/task_10day.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="9" column="18" selection-start-line="4" selection-start-column="2" selection-end-line="17" selection-end-column="30" />
         </state>
       </provider>
     </entry>

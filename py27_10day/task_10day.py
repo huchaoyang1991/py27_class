@@ -2,20 +2,20 @@
 
 #  提示：os模块结合文件读写操作 、即可实现
 # 步骤提示：获取指定路径下的所有文件信息，判断是否是文件，是文件则进行复制（读取内容，写入到新文件）
-import os
-
-
-def copy_file(path):
-    files = os.listdir(path)  # 获取当前文件目录下的所有文件
-    print(files)
-    for file in files:
-        if os.path.isfile(os.path.join(path, file)):
-            # 读取文件内容
-            with open(file=os.path.join(path, file), mode='r', encoding='utf-8') as f:
-                f1 = f.read()
-            # 追加读取到文件内容到一个新文件
-            with open(file=os.path.join(path, 'add_files'), mode='a', encoding='utf-8') as f2:
-                f2.write(f1)
+# import os
+#
+#
+# def copy_file(path):
+#     files = os.listdir(path)  # 获取当前文件目录下的所有文件
+#     print(files)
+#     for file in files:
+#         if os.path.isfile(os.path.join(path, file)):
+#             # 读取文件内容
+#             with open(file=os.path.join(path, file), mode='r', encoding='utf-8') as f:
+#                 f1 = f.read()
+#             # 追加读取到文件内容到一个新文件
+#             with open(file=os.path.join(path, 'add_files'), mode='a', encoding='utf-8') as f2:
+#                 f2.write(f1)
 
 
 path = os.path.dirname(__file__)  # 获取当前文件目录的绝对路径

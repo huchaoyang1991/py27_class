@@ -6,7 +6,7 @@ result = ''
 while 1:
     try:
         user_fist = int(input("请出拳：1（石头）2（剪刀）3（布）4（退出）"))
-        if user_fist > 4 or user_fist < 1:
+        while user_fist > 4 or user_fist < 1:
             user_fist = int(input("您输入的数字超出范围，请重新出拳：1（石头）2（剪刀）3（布）4（退出）"))
     except ValueError as e:
         print("请输入有效的数字")

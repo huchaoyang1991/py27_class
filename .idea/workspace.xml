@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d346e650-2bb1-46ce-8c6c-8896f6a3b8be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_10day/01模块的导入.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_10day/02关于__name__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_10day/03查看模块导入的搜索路径.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_10day/04os模块的学习.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_10day/05os模块中的扩展方法.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_10day/case.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_10day/module01.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_10day/task_10day.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_10day/work1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_11day/task_11day.py" beforeDir="false" afterPath="$PROJECT_DIR$/py27_11day/task_11day.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +20,8 @@
     <SUITE FILE_PATH="coverage/py27_class$03.coverage" NAME="03身份运算符和成员运算符 Coverage Results" MODIFIED="1581429850163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py27_04day" />
     <SUITE FILE_PATH="coverage/py27_class$task_04day.coverage" NAME="task_04day Coverage Results" MODIFIED="1581514622405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py27_04day" />
     <SUITE FILE_PATH="coverage/py27_class$task_08day.coverage" NAME="task_08day Coverage Results" MODIFIED="1582285706201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py27_08day" />
-    <SUITE FILE_PATH="coverage/py27_class$task_11day.coverage" NAME="task_11day Coverage Results" MODIFIED="1582904786059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py27_11day" />
+    <SUITE FILE_PATH="coverage/py27_class$task_11day.coverage" NAME="task_11day Coverage Results" MODIFIED="1583057485601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py27_11day" />
+    <SUITE FILE_PATH="coverage/py27_class$task_12day.coverage" NAME="task_12day Coverage Results" MODIFIED="1583079370161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py27_12day" />
     <SUITE FILE_PATH="coverage/py27_class$task_09day.coverage" NAME="task_09day Coverage Results" MODIFIED="1582456000623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py27_09day" />
     <SUITE FILE_PATH="coverage/py27_class$04.coverage" NAME="04元组 Coverage Results" MODIFIED="1581430060752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py27_04day" />
     <SUITE FILE_PATH="coverage/py27_class$task_05day__1_.coverage" NAME="task_05day (1) Coverage Results" MODIFIED="1582032867092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py27_07day" />
@@ -42,20 +35,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/py27_10day/task_10day.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py27_11day/02异常捕获.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+            <state relative-caret-position="357">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py27_11day/task_11day.py">
+        <entry file="file://$PROJECT_DIR$/py27_11day/03捕获指定类型的异常.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="-155">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py27_11day/04异常捕获else和finally.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="85" column="5" lean-forward="true" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py27_11day/05主动抛出异常.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py27_11day/06断言.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py27_12day/01类的定义.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-108">
+              <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py27_12day/02类属性和实例属性.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py27_12day/03关于在类里面定义对象属性.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="992">
+              <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py27_12day/04类里面的方法.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="713">
+              <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/py27_12day/05关于类方法、静态方法、对象方法的定义场景.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -113,12 +178,15 @@
         <option value="$PROJECT_DIR$/py27_10day/123123.py" />
         <option value="$PROJECT_DIR$/py27_10day/03查看模块导入的搜索路径.py" />
         <option value="$PROJECT_DIR$/py27_11day/task_05day.py" />
-        <option value="$PROJECT_DIR$/py27_11day/task_11day.py" />
         <option value="$PROJECT_DIR$/py27_10day/task_10day.py" />
+        <option value="$PROJECT_DIR$/py27_11day/task_11day.py" />
+        <option value="$PROJECT_DIR$/py27_12day/03关于在类里面定义对象属性.py" />
+        <option value="$PROJECT_DIR$/py27_12day/task_12day.py" />
+        <option value="$PROJECT_DIR$/py27_12day/02类属性和实例属性.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1190" />
     <option name="y" value="84" />
     <option name="width" value="717" />
@@ -144,32 +212,12 @@
             <path>
               <item name="py27_class" type="b2602c69:ProjectViewProjectNode" />
               <item name="py27_class" type="462c0819:PsiDirectoryNode" />
-              <item name="py27_03day" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="py27_class" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py27_class" type="462c0819:PsiDirectoryNode" />
-              <item name="py27_04day" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="py27_class" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py27_class" type="462c0819:PsiDirectoryNode" />
-              <item name="py27_05day" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="py27_class" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py27_class" type="462c0819:PsiDirectoryNode" />
-              <item name="py27_09day" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="py27_class" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py27_class" type="462c0819:PsiDirectoryNode" />
-              <item name="py27_10day" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="py27_class" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py27_class" type="462c0819:PsiDirectoryNode" />
               <item name="py27_11day" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="py27_class" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py27_class" type="462c0819:PsiDirectoryNode" />
+              <item name="py27_12day" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="py27_class" type="b2602c69:ProjectViewProjectNode" />
@@ -194,15 +242,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Pywork\py27_class\py27_02day" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Pywork\py27_class\py27_12day" />
       <recent name="D:\Pywork\py27_class\py27_11day" />
       <recent name="D:\Pywork\py27_class\xmind" />
       <recent name="D:\Pywork\py27_class\py27_10day" />
       <recent name="D:\Pywork\py27_class\py27_09day" />
-      <recent name="D:\Pywork\py27_class\py27_08day" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Pywork\py27_class\py27_02day" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -217,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.task_11day">
+  <component name="RunManager" selected="Python.task_12day">
     <configuration name="123123" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py27_class" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,28 +280,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py27_10day/123123.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task_08day" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py27_class" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py27_08day" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py27_08day/task_08day.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -328,13 +354,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="task_12day" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py27_class" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py27_12day" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py27_12day/task_12day.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task_12day" />
         <item itemvalue="Python.task_11day" />
         <item itemvalue="Python.123123" />
         <item itemvalue="Python.task_10day" />
         <item itemvalue="Python.task_09day" />
-        <item itemvalue="Python.task_08day" />
       </list>
     </recent_temporary>
   </component>
@@ -365,22 +413,25 @@
       <workItem from="1582450999012" duration="1509000" />
       <workItem from="1582452752186" duration="3381000" />
       <workItem from="1582722285672" duration="9407000" />
-      <workItem from="1582900424516" duration="5458000" />
+      <workItem from="1582900424516" duration="5763000" />
+      <workItem from="1583056770442" duration="732000" />
+      <workItem from="1583075130979" duration="4517000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69897000" />
+    <option name="totallyTimeSpent" value="75451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.108742006" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1108742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32683983" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32683983" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -389,7 +440,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32683983" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32683983" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -424,55 +475,6 @@
     <state x="841" y="271" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580822570149" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/py27_06day/02集合的学习.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1147">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py27_06day/03数据类型的总结.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1736">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py27_06day/04条件判断.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1085">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py27_06day/05条件判断小案例‘.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py27_06day/06pychamr的debug调试工具.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py27_06day/07条件循环的使用.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py27_06day/08死循环以及相关案例的使用.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/py27_06day/09while中的break.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -696,31 +698,60 @@
     <entry file="file://$PROJECT_DIR$/py27_11day/task_10day.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/py27_09day/task_09day.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="48" selection-start-line="48" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py27_10day/add_files" />
+    <entry file="file://$PROJECT_DIR$/py27_10day/task_10day.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py27_11day/task_11day.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py27_12day/task_12day.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/py27_11day/01异常.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="744">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py27_11day/02异常捕获.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="357">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py27_11day/03捕获指定类型的异常.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-852">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="-155">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py27_11day/04异常捕获else和finally.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="357">
+          <caret line="85" column="5" lean-forward="true" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -731,36 +762,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py27_09day/task_09day.py">
+    <entry file="file://$PROJECT_DIR$/py27_11day/06断言.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="48" selection-start-line="48" selection-end-line="67" selection-end-column="17" />
+        <state relative-caret-position="388">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py27_10day/add_files">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="1300">
-          <caret line="49247" column="14" lean-forward="true" selection-start-line="49247" selection-start-column="14" selection-end-line="49247" selection-end-column="14" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-8252">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+    <entry file="file://$PROJECT_DIR$/py27_12day/01类的定义.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py27_11day/task_11day.py">
+    <entry file="file://$PROJECT_DIR$/py27_12day/02类属性和实例属性.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="217">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py27_10day/task_10day.py">
+    <entry file="file://$PROJECT_DIR$/py27_12day/03关于在类里面定义对象属性.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        <state relative-caret-position="992">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py27_12day/04类里面的方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py27_12day/05关于类方法、静态方法、对象方法的定义场景.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>

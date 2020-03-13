@@ -1,0 +1,70 @@
+2020-03-14 00:14:00,107 -- [test_login.py-->line:31] - INFO: 通过
+2020-03-14 00:14:00,191 -- [test_login.py-->line:31] - INFO: 通过
+2020-03-14 00:14:00,257 -- [test_login.py-->line:31] - INFO: 通过
+2020-03-14 00:14:00,327 -- [test_login.py-->line:31] - INFO: 通过
+2020-03-14 00:14:00,399 -- [test_login.py-->line:31] - INFO: 通过
+2020-03-14 00:14:51,476 -- [test_login.py-->line:28] - ERROR: {'code': 0, 'msg': '登录成功'} != ''
+2020-03-14 00:14:51,542 -- [test_login.py-->line:28] - ERROR: {'code': 1, 'msg': '账号或密码不正确'} != ''
+2020-03-14 00:14:51,615 -- [test_login.py-->line:28] - ERROR: {'code': 1, 'msg': '账号或密码不正确'} != ''
+2020-03-14 00:14:51,687 -- [test_login.py-->line:28] - ERROR: {'code': 1, 'msg': '所有的参数不能为空'} != ''
+2020-03-14 00:14:51,760 -- [test_login.py-->line:28] - ERROR: {'code': 1, 'msg': '所有的参数不能为空'} != ''
+2020-03-14 00:23:01,973 -- [test_login.py-->line:31] - INFO: 注册成功通过
+2020-03-14 00:23:02,047 -- [test_login.py-->line:31] - INFO: 帐号不正确通过
+2020-03-14 00:23:02,110 -- [test_login.py-->line:31] - INFO: 密码不正确通过
+2020-03-14 00:23:02,170 -- [test_login.py-->line:31] - INFO: 帐号为空通过
+2020-03-14 00:23:02,238 -- [test_login.py-->line:31] - INFO: 密码为空通过
+2020-03-14 00:25:34,466 -- [test_login.py-->line:28] - ERROR: 注册成功
+2020-03-14 00:25:34,466 -- [test_login.py-->line:29] - ERROR: {'code': 0, 'msg': '登录成功'} != 'result'
+2020-03-14 00:25:34,533 -- [test_login.py-->line:28] - ERROR: 帐号不正确
+2020-03-14 00:25:34,533 -- [test_login.py-->line:29] - ERROR: {'code': 1, 'msg': '账号或密码不正确'} != 'result'
+2020-03-14 00:25:34,598 -- [test_login.py-->line:28] - ERROR: 密码不正确
+2020-03-14 00:25:34,598 -- [test_login.py-->line:29] - ERROR: {'code': 1, 'msg': '账号或密码不正确'} != 'result'
+2020-03-14 00:25:34,665 -- [test_login.py-->line:28] - ERROR: 帐号为空
+2020-03-14 00:25:34,665 -- [test_login.py-->line:29] - ERROR: {'code': 1, 'msg': '所有的参数不能为空'} != 'result'
+2020-03-14 00:25:34,735 -- [test_login.py-->line:28] - ERROR: 密码为空
+2020-03-14 00:25:34,735 -- [test_login.py-->line:29] - ERROR: {'code': 1, 'msg': '所有的参数不能为空'} != 'result'
+2020-03-14 00:27:23,112 -- [test_login.py-->line:29] - ERROR: {'code': 0, 'msg': '登录成功'} != 'result'
+2020-03-14 00:27:23,182 -- [test_login.py-->line:29] - ERROR: {'code': 1, 'msg': '账号或密码不正确'} != 'result'
+2020-03-14 00:27:23,251 -- [test_login.py-->line:29] - ERROR: {'code': 1, 'msg': '账号或密码不正确'} != 'result'
+2020-03-14 00:27:23,338 -- [test_login.py-->line:29] - ERROR: {'code': 1, 'msg': '所有的参数不能为空'} != 'result'
+2020-03-14 00:27:23,425 -- [test_login.py-->line:29] - ERROR: {'code': 1, 'msg': '所有的参数不能为空'} != 'result'
+2020-03-14 00:29:07,351 -- [test_login.py-->line:28] - ERROR: 测试用例：注册成功
+2020-03-14 00:29:07,351 -- [test_login.py-->line:29] - ERROR: {'code': 0, 'msg': '登录成功'} != 'result'
+2020-03-14 00:29:07,427 -- [test_login.py-->line:28] - ERROR: 测试用例：帐号不正确
+2020-03-14 00:29:07,428 -- [test_login.py-->line:29] - ERROR: {'code': 1, 'msg': '账号或密码不正确'} != 'result'
+2020-03-14 00:29:07,502 -- [test_login.py-->line:28] - ERROR: 测试用例：密码不正确
+2020-03-14 00:29:07,502 -- [test_login.py-->line:29] - ERROR: {'code': 1, 'msg': '账号或密码不正确'} != 'result'
+2020-03-14 00:29:07,574 -- [test_login.py-->line:28] - ERROR: 测试用例：帐号为空
+2020-03-14 00:29:07,574 -- [test_login.py-->line:29] - ERROR: {'code': 1, 'msg': '所有的参数不能为空'} != 'result'
+2020-03-14 00:29:07,642 -- [test_login.py-->line:28] - ERROR: 测试用例：密码为空
+2020-03-14 00:29:07,643 -- [test_login.py-->line:29] - ERROR: {'code': 1, 'msg': '所有的参数不能为空'} != 'result'
+2020-03-14 00:33:58,319 -- [test_login.py-->line:32] - INFO: 注册成功-通过
+2020-03-14 00:33:58,393 -- [test_login.py-->line:32] - INFO: 帐号不正确-通过
+2020-03-14 00:33:58,457 -- [test_login.py-->line:32] - INFO: 密码不正确-通过
+2020-03-14 00:33:58,517 -- [test_login.py-->line:32] - INFO: 帐号为空-通过
+2020-03-14 00:33:58,581 -- [test_login.py-->line:32] - INFO: 密码为空-通过
+2020-03-14 00:34:36,521 -- [test_login.py-->line:28] - ERROR: 测试用例-注册成功-未通过
+2020-03-14 00:34:36,522 -- [test_login.py-->line:29] - ERROR: {'code': 0, 'msg': '登录成功'} != 'result'
+2020-03-14 00:34:36,592 -- [test_login.py-->line:28] - ERROR: 测试用例-帐号不正确-未通过
+2020-03-14 00:34:36,592 -- [test_login.py-->line:29] - ERROR: {'code': 1, 'msg': '账号或密码不正确'} != 'result'
+2020-03-14 00:34:36,656 -- [test_login.py-->line:28] - ERROR: 测试用例-密码不正确-未通过
+2020-03-14 00:34:36,656 -- [test_login.py-->line:29] - ERROR: {'code': 1, 'msg': '账号或密码不正确'} != 'result'
+2020-03-14 00:34:36,720 -- [test_login.py-->line:28] - ERROR: 测试用例-帐号为空-未通过
+2020-03-14 00:34:36,720 -- [test_login.py-->line:29] - ERROR: {'code': 1, 'msg': '所有的参数不能为空'} != 'result'
+2020-03-14 00:34:36,785 -- [test_login.py-->line:28] - ERROR: 测试用例-密码为空-未通过
+2020-03-14 00:34:36,785 -- [test_login.py-->line:29] - ERROR: {'code': 1, 'msg': '所有的参数不能为空'} != 'result'
+2020-03-14 00:35:01,856 -- [test_login.py-->line:28] - ERROR: 注册成功-未通过
+2020-03-14 00:35:01,856 -- [test_login.py-->line:29] - ERROR: {'code': 0, 'msg': '登录成功'} != 'result'
+2020-03-14 00:35:01,922 -- [test_login.py-->line:28] - ERROR: 帐号不正确-未通过
+2020-03-14 00:35:01,922 -- [test_login.py-->line:29] - ERROR: {'code': 1, 'msg': '账号或密码不正确'} != 'result'
+2020-03-14 00:35:01,988 -- [test_login.py-->line:28] - ERROR: 密码不正确-未通过
+2020-03-14 00:35:01,988 -- [test_login.py-->line:29] - ERROR: {'code': 1, 'msg': '账号或密码不正确'} != 'result'
+2020-03-14 00:35:02,054 -- [test_login.py-->line:28] - ERROR: 帐号为空-未通过
+2020-03-14 00:35:02,054 -- [test_login.py-->line:29] - ERROR: {'code': 1, 'msg': '所有的参数不能为空'} != 'result'
+2020-03-14 00:35:02,125 -- [test_login.py-->line:28] - ERROR: 密码为空-未通过
+2020-03-14 00:35:02,125 -- [test_login.py-->line:29] - ERROR: {'code': 1, 'msg': '所有的参数不能为空'} != 'result'
+2020-03-14 00:35:34,797 -- [test_login.py-->line:32] - INFO: 注册成功-通过
+2020-03-14 00:35:34,871 -- [test_login.py-->line:32] - INFO: 帐号不正确-通过
+2020-03-14 00:35:34,935 -- [test_login.py-->line:32] - INFO: 密码不正确-通过
+2020-03-14 00:35:35,007 -- [test_login.py-->line:32] - INFO: 帐号为空-通过
+2020-03-14 00:35:35,070 -- [test_login.py-->line:32] - INFO: 密码为空-通过

@@ -1,0 +1,16 @@
+log:
+  level: DEBUG
+  fh_level: WARNING
+  sh_level: DEBUG
+
+
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  dict1:
+    a: 100
+    b: 200
+    c:
+      name: musen
+      age: 18
+  list: [11,22,33,44]

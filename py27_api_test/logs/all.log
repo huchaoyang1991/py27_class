@@ -1,0 +1,207 @@
+2020-03-25 17:42:35,942 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:42:36,093 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+2020-03-25 17:42:36,094 -- [test_lemon.py-->line:38] - ERROR: 用例-登录成功-未通过
+2020-03-25 17:42:36,094 -- [test_lemon.py-->line:39] - ERROR: 预期结果-{'code': 0, 'msg': 'OK'}
+2020-03-25 17:42:36,094 -- [test_lemon.py-->line:40] - ERROR: 实际结果-{'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-03-25 17:42:36,145 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:42:36,224 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+2020-03-25 17:42:36,225 -- [test_lemon.py-->line:38] - ERROR: 用例-手机号为空-未通过
+2020-03-25 17:42:36,225 -- [test_lemon.py-->line:39] - ERROR: 预期结果-{'code': 1, 'msg': '手机号码为空'}
+2020-03-25 17:42:36,225 -- [test_lemon.py-->line:40] - ERROR: 实际结果-{'code': 2, 'msg': '手机号码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-03-25 17:42:36,273 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:42:36,354 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+2020-03-25 17:42:36,355 -- [test_lemon.py-->line:38] - ERROR: 用例-密码为空-未通过
+2020-03-25 17:42:36,355 -- [test_lemon.py-->line:39] - ERROR: 预期结果-{'code': 1, 'msg': '密码为空'}
+2020-03-25 17:42:36,356 -- [test_lemon.py-->line:40] - ERROR: 实际结果-{'code': 2, 'msg': '密码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-03-25 17:42:36,405 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:42:36,515 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+2020-03-25 17:42:36,565 -- [test_lemon.py-->line:45] - INFO: 用例-手机号未注册-通过
+2020-03-25 17:42:36,566 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:42:36,674 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+2020-03-25 17:42:36,721 -- [test_lemon.py-->line:45] - INFO: 用例-密码错误-通过
+2020-03-25 17:42:36,722 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:42:36,801 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+2020-03-25 17:42:36,851 -- [test_lemon.py-->line:45] - INFO: 用例-手机号格式错误-通过
+2020-03-25 17:42:36,857 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:42:36,973 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:42:36,974 -- [test_lemon.py-->line:63] - ERROR: 用例-注册成功-带注册名-未通过
+2020-03-25 17:42:36,974 -- [test_lemon.py-->line:64] - ERROR: 预期结果-{"code": 0, "msg": "OK"}
+2020-03-25 17:42:36,974 -- [test_lemon.py-->line:65] - ERROR: 实际结果-{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-03-25 17:42:37,025 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:42:37,145 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:42:37,146 -- [test_lemon.py-->line:63] - ERROR: 用例-成功-不带用户名-未通过
+2020-03-25 17:42:37,146 -- [test_lemon.py-->line:64] - ERROR: 预期结果-{"code": 0, "msg": "OK"}
+2020-03-25 17:42:37,146 -- [test_lemon.py-->line:65] - ERROR: 实际结果-{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-03-25 17:42:37,195 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:42:37,272 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:42:37,322 -- [test_lemon.py-->line:70] - INFO: 用例-不输入手机号-通过
+2020-03-25 17:42:37,324 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:42:37,397 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:42:37,443 -- [test_lemon.py-->line:70] - INFO: 用例-手机号长度10位-通过
+2020-03-25 17:42:37,444 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:42:37,510 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:42:37,559 -- [test_lemon.py-->line:70] - INFO: 用例-手机号长度12位-通过
+2020-03-25 17:42:37,561 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:42:37,629 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:42:37,677 -- [test_lemon.py-->line:70] - INFO: 用例-手机号含有非法字符-通过
+2020-03-25 17:42:37,678 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:42:37,769 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:42:37,824 -- [test_lemon.py-->line:70] - INFO: 用例-已注册过的手机号-通过
+2020-03-25 17:42:37,827 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:42:37,923 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:42:37,968 -- [test_lemon.py-->line:70] - INFO: 用例-密码7位-通过
+2020-03-25 17:42:37,969 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:42:38,054 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:42:38,121 -- [test_lemon.py-->line:70] - INFO: 用例-密码17位-通过
+2020-03-25 17:42:38,122 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:42:38,193 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:42:38,246 -- [test_lemon.py-->line:70] - INFO: 用例-不输入密码-通过
+2020-03-25 17:42:38,247 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:42:38,320 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:42:38,374 -- [test_lemon.py-->line:70] - INFO: 用例-注册名11位-通过
+2020-03-25 17:42:38,376 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:42:38,445 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:42:38,500 -- [test_lemon.py-->line:70] - INFO: 用例-类型输入非0，1内容-通过
+2020-03-25 17:42:38,502 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:42:38,597 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:42:38,598 -- [test_lemon.py-->line:63] - ERROR: 用例-不输入类型-未通过
+2020-03-25 17:42:38,598 -- [test_lemon.py-->line:64] - ERROR: 预期结果-{"code":0,"msg":"OK"}
+2020-03-25 17:42:38,598 -- [test_lemon.py-->line:65] - ERROR: 实际结果-{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-03-25 17:43:44,654 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:43:44,755 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+2020-03-25 17:43:44,756 -- [test_lemon.py-->line:38] - ERROR: 用例-登录成功-未通过
+2020-03-25 17:43:44,756 -- [test_lemon.py-->line:39] - ERROR: 预期结果-{'code': 0, 'msg': 'OK'}
+2020-03-25 17:43:44,756 -- [test_lemon.py-->line:40] - ERROR: 实际结果-{'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-03-25 17:43:44,787 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:43:44,855 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+2020-03-25 17:43:44,855 -- [test_lemon.py-->line:38] - ERROR: 用例-手机号为空-未通过
+2020-03-25 17:43:44,856 -- [test_lemon.py-->line:39] - ERROR: 预期结果-{'code': 1, 'msg': '手机号码为空'}
+2020-03-25 17:43:44,856 -- [test_lemon.py-->line:40] - ERROR: 实际结果-{'code': 2, 'msg': '手机号码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-03-25 17:43:44,880 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:43:44,948 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+2020-03-25 17:43:44,948 -- [test_lemon.py-->line:38] - ERROR: 用例-密码为空-未通过
+2020-03-25 17:43:44,949 -- [test_lemon.py-->line:39] - ERROR: 预期结果-{'code': 1, 'msg': '密码为空'}
+2020-03-25 17:43:44,949 -- [test_lemon.py-->line:40] - ERROR: 实际结果-{'code': 2, 'msg': '密码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-03-25 17:43:44,974 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:43:45,057 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+2020-03-25 17:43:45,085 -- [test_lemon.py-->line:45] - INFO: 用例-手机号未注册-通过
+2020-03-25 17:43:45,086 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:43:45,183 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+2020-03-25 17:43:45,209 -- [test_lemon.py-->line:45] - INFO: 用例-密码错误-通过
+2020-03-25 17:43:45,211 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:43:45,278 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+2020-03-25 17:43:45,304 -- [test_lemon.py-->line:45] - INFO: 用例-手机号格式错误-通过
+2020-03-25 17:43:45,305 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:43:45,399 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:43:45,400 -- [test_lemon.py-->line:63] - ERROR: 用例-注册成功-带注册名-未通过
+2020-03-25 17:43:45,400 -- [test_lemon.py-->line:64] - ERROR: 预期结果-{"code": 0, "msg": "OK"}
+2020-03-25 17:43:45,400 -- [test_lemon.py-->line:65] - ERROR: 实际结果-{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-03-25 17:43:45,429 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:43:45,528 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:43:45,529 -- [test_lemon.py-->line:63] - ERROR: 用例-成功-不带用户名-未通过
+2020-03-25 17:43:45,529 -- [test_lemon.py-->line:64] - ERROR: 预期结果-{"code": 0, "msg": "OK"}
+2020-03-25 17:43:45,529 -- [test_lemon.py-->line:65] - ERROR: 实际结果-{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-03-25 17:43:45,554 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:43:45,618 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:43:45,655 -- [test_lemon.py-->line:70] - INFO: 用例-不输入手机号-通过
+2020-03-25 17:43:45,657 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:43:45,737 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:43:45,764 -- [test_lemon.py-->line:70] - INFO: 用例-手机号长度10位-通过
+2020-03-25 17:43:45,765 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:43:45,845 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:43:45,874 -- [test_lemon.py-->line:70] - INFO: 用例-手机号长度12位-通过
+2020-03-25 17:43:45,875 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:43:45,942 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:43:45,966 -- [test_lemon.py-->line:70] - INFO: 用例-手机号含有非法字符-通过
+2020-03-25 17:43:45,967 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:43:46,056 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:43:46,085 -- [test_lemon.py-->line:70] - INFO: 用例-已注册过的手机号-通过
+2020-03-25 17:43:46,087 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:43:46,163 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:43:46,187 -- [test_lemon.py-->line:70] - INFO: 用例-密码7位-通过
+2020-03-25 17:43:46,189 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:43:46,264 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:43:46,293 -- [test_lemon.py-->line:70] - INFO: 用例-密码17位-通过
+2020-03-25 17:43:46,296 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:43:46,368 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:43:46,396 -- [test_lemon.py-->line:70] - INFO: 用例-不输入密码-通过
+2020-03-25 17:43:46,397 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:43:46,469 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:43:46,501 -- [test_lemon.py-->line:70] - INFO: 用例-注册名11位-通过
+2020-03-25 17:43:46,502 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:43:46,567 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:43:46,593 -- [test_lemon.py-->line:70] - INFO: 用例-类型输入非0，1内容-通过
+2020-03-25 17:43:46,594 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:43:46,685 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:43:46,686 -- [test_lemon.py-->line:63] - ERROR: 用例-不输入类型-未通过
+2020-03-25 17:43:46,686 -- [test_lemon.py-->line:64] - ERROR: 预期结果-{"code":0,"msg":"OK"}
+2020-03-25 17:43:46,686 -- [test_lemon.py-->line:65] - ERROR: 实际结果-{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-03-25 17:46:57,829 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:46:57,934 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+2020-03-25 17:46:57,936 -- [test_lemon.py-->line:38] - ERROR: 用例-登录成功-未通过
+2020-03-25 17:46:57,936 -- [test_lemon.py-->line:39] - ERROR: 预期结果-{'code': 0, 'msg': 'OK'}
+2020-03-25 17:46:57,936 -- [test_lemon.py-->line:40] - ERROR: 实际结果-{'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-03-25 17:46:57,967 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:46:58,033 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+2020-03-25 17:46:58,034 -- [test_lemon.py-->line:38] - ERROR: 用例-手机号为空-未通过
+2020-03-25 17:46:58,034 -- [test_lemon.py-->line:39] - ERROR: 预期结果-{'code': 1, 'msg': '手机号码为空'}
+2020-03-25 17:46:58,034 -- [test_lemon.py-->line:40] - ERROR: 实际结果-{'code': 2, 'msg': '手机号码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-03-25 17:46:58,057 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:46:58,126 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+2020-03-25 17:46:58,126 -- [test_lemon.py-->line:38] - ERROR: 用例-密码为空-未通过
+2020-03-25 17:46:58,126 -- [test_lemon.py-->line:39] - ERROR: 预期结果-{'code': 1, 'msg': '密码为空'}
+2020-03-25 17:46:58,126 -- [test_lemon.py-->line:40] - ERROR: 实际结果-{'code': 2, 'msg': '密码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-03-25 17:46:58,154 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:46:58,249 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+2020-03-25 17:46:58,275 -- [test_lemon.py-->line:45] - INFO: 用例-手机号未注册-通过
+2020-03-25 17:46:58,276 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:46:58,379 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+2020-03-25 17:46:58,406 -- [test_lemon.py-->line:45] - INFO: 用例-密码错误-通过
+2020-03-25 17:46:58,407 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:46:58,477 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+2020-03-25 17:46:58,501 -- [test_lemon.py-->line:45] - INFO: 用例-手机号格式错误-通过
+2020-03-25 17:46:58,502 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:46:58,595 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:46:58,596 -- [test_lemon.py-->line:63] - ERROR: 用例-注册成功-带注册名-未通过
+2020-03-25 17:46:58,596 -- [test_lemon.py-->line:64] - ERROR: 预期结果-{"code": 0, "msg": "OK"}
+2020-03-25 17:46:58,596 -- [test_lemon.py-->line:65] - ERROR: 实际结果-{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-03-25 17:46:58,624 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:46:58,722 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:46:58,723 -- [test_lemon.py-->line:63] - ERROR: 用例-成功-不带用户名-未通过
+2020-03-25 17:46:58,723 -- [test_lemon.py-->line:64] - ERROR: 预期结果-{"code": 0, "msg": "OK"}
+2020-03-25 17:46:58,723 -- [test_lemon.py-->line:65] - ERROR: 实际结果-{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-03-25 17:46:58,748 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:46:58,819 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:46:58,846 -- [test_lemon.py-->line:70] - INFO: 用例-不输入手机号-通过
+2020-03-25 17:46:58,848 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:46:58,919 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:46:58,946 -- [test_lemon.py-->line:70] - INFO: 用例-手机号长度10位-通过
+2020-03-25 17:46:58,947 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:46:59,039 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:46:59,065 -- [test_lemon.py-->line:70] - INFO: 用例-手机号长度12位-通过
+2020-03-25 17:46:59,067 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:46:59,140 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:46:59,164 -- [test_lemon.py-->line:70] - INFO: 用例-手机号含有非法字符-通过
+2020-03-25 17:46:59,165 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:46:59,261 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:46:59,291 -- [test_lemon.py-->line:70] - INFO: 用例-已注册过的手机号-通过
+2020-03-25 17:46:59,292 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:46:59,363 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:46:59,388 -- [test_lemon.py-->line:70] - INFO: 用例-密码7位-通过
+2020-03-25 17:46:59,389 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:46:59,464 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:46:59,496 -- [test_lemon.py-->line:70] - INFO: 用例-密码17位-通过
+2020-03-25 17:46:59,498 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:46:59,565 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:46:59,598 -- [test_lemon.py-->line:70] - INFO: 用例-不输入密码-通过
+2020-03-25 17:46:59,600 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:46:59,672 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:46:59,696 -- [test_lemon.py-->line:70] - INFO: 用例-注册名11位-通过
+2020-03-25 17:46:59,697 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:46:59,766 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:46:59,791 -- [test_lemon.py-->line:70] - INFO: 用例-类型输入非0，1内容-通过
+2020-03-25 17:46:59,793 -- [connectionpool.py-->line:205] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-03-25 17:46:59,897 -- [connectionpool.py-->line:393] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/register HTTP/1.1" 200 None
+2020-03-25 17:46:59,898 -- [test_lemon.py-->line:63] - ERROR: 用例-不输入类型-未通过
+2020-03-25 17:46:59,898 -- [test_lemon.py-->line:64] - ERROR: 预期结果-{"code":0,"msg":"OK"}
+2020-03-25 17:46:59,898 -- [test_lemon.py-->line:65] - ERROR: 实际结果-{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}

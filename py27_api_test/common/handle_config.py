@@ -7,6 +7,7 @@ Company:湖南零檬信息技术有限公司
 ============================
 """
 
+
 from configparser import ConfigParser
 
 
@@ -17,5 +18,4 @@ class HandleConfig(ConfigParser):
         super().__init__()
         self.read(filename, encoding="utf8")
 
-
-conf = HandleConfig(r"D:\Pywork\py27_class\py27_api_test\conf\config.ini")
+conf = HandleConfig(r"C:\project\py27_class\py27_api_test\conf\config.ini")

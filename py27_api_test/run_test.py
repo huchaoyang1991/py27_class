@@ -1,8 +1,9 @@
-"""
-============================
-Author:柠檬班-木森
-Time:2020/3/17   20:18
-E-mail:3247119728@qq.com
-Company:湖南零檬信息技术有限公司
-============================
-"""
+import unittest
+
+from BeautifulReport import BeautifulReport
+
+from py27_api_test.utils.my_path import REPORT_DIR, CASE_DIR
+
+suite = unittest.defaultTestLoader.discover(CASE_DIR)
+br = BeautifulReport(suite)
+br.report(description="柠檬班接口测试报告", filename="report.html", report_dir=REPORT_DIR)

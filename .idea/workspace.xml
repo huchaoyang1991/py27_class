@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d346e650-2bb1-46ce-8c6c-8896f6a3b8be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_api_test/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/config/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_api_test/data/apicases.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/data/apicases.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_api_test/logs/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/logs/all.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_api_test/reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/reports/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_api_test/testcases/test_lemon.py" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/testcases/test_lemon.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,25 +59,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>排序</find>
-      <find>StringIO</find>
-      <find>io.STR</find>
-      <find>test_login_user_error2</find>
-      <find>python007python007python007</find>
-      <find>test_login_pwd2_error</find>
-      <find>test_login_user_is_none</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-21" />
-    <option name="y" value="1070" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
   </component>
   <component name="ProjectId" id="1XLI8jLCtawlIddFy2UECJWlEqF" />
   <component name="ProjectLevelVcsManager">
@@ -104,19 +91,7 @@
       <recent name="D:\Pywork\py27_class\py27_16day\task_16day" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.util_request">
+  <component name="RunManager" selected="Python.run_test">
     <configuration name="06作业要求" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py27_class" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lemon" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="my_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py27_class" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,11 +121,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py27_18day" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py27_api_test/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py27_18day/lemon.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py27_api_test/utils/my_mysql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="py27_task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="run_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py27_class" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,32 +142,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py27_20day" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py27_api_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py27_20day/py27_task.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="text_suite (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py27_class" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py27_17day/task_17day" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py27_17day/task_17day/text_suite.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py27_api_test/run_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,13 +176,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_lemon.LemonTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="py27_class" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py27_api_test/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_lemon.LemonTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run_test" />
+        <item itemvalue="Python tests.Unittests for test_lemon.LemonTestCase" />
+        <item itemvalue="Python.my_mysql" />
         <item itemvalue="Python.util_request" />
         <item itemvalue="Python.06作业要求" />
-        <item itemvalue="Python.lemon" />
-        <item itemvalue="Python.py27_task" />
-        <item itemvalue="Python.text_suite (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -272,62 +240,8 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="Unittests_in_test_cases_py - 2020.03.07 at 00h 48m 20s.xml">
-      <configuration name="Unittests in test_cases.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_cases_LoginTestCases_test_login_pass - 2020.03.08 at 17h 27m 28s.xml">
-      <configuration name="Unittests for test_cases.LoginTestCases.test_login_pass" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_register_py - 2020.03.08 at 20h 23m 22s.xml">
-      <configuration name="Unittests in test_register.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_register_py - 2020.03.08 at 20h 25m 16s.xml">
-      <configuration name="Unittests in test_register.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_register_py_(1) - 2020.03.08 at 20h 26m 09s.xml">
-      <configuration name="Unittests in test_register.py (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_register_RRR - 2020.03.08 at 20h 33m 27s.xml">
-      <configuration name="Unittests for test_register.RRR" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_register_RRR_test - 2020.03.08 at 20h 48m 30s.xml">
-      <configuration name="Unittests for test_register.RRR.test" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_register_RRR_test - 2020.03.08 at 20h 49m 55s.xml">
-      <configuration name="Unittests for test_register.RRR.test" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_register_py - 2020.03.08 at 20h 50m 17s.xml">
-      <configuration name="Unittests in test_register.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_register_RRR_test - 2020.03.08 at 20h 50m 59s.xml">
-      <configuration name="Unittests for test_register.RRR.test" configurationId="tests" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="110697000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-18" y="1073" width="1550" height="838" extended-state="6" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -341,22 +255,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1118" y="383" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584454411707" />
-    <state width="1898" height="273" key="GridCell.Tab.0.bottom" timestamp="1584893538682">
+    <state width="1898" height="273" key="GridCell.Tab.0.bottom" timestamp="1585334580564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584893538682" />
-    <state width="1898" height="273" key="GridCell.Tab.0.center" timestamp="1584893538666">
+    <state width="1898" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585334580564" />
+    <state width="1898" height="273" key="GridCell.Tab.0.center" timestamp="1585334580564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="273" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584893538666" />
-    <state width="1898" height="273" key="GridCell.Tab.0.left" timestamp="1584893538660">
+    <state width="1898" height="273" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585334580564" />
+    <state width="1898" height="273" key="GridCell.Tab.0.left" timestamp="1585334580564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="273" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584893538660" />
-    <state width="1898" height="273" key="GridCell.Tab.0.right" timestamp="1584893538678">
+    <state width="1898" height="273" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585334580564" />
+    <state width="1898" height="273" key="GridCell.Tab.0.right" timestamp="1585334580564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="273" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584893538678" />
+    <state width="1898" height="273" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585334580564" />
     <state x="581" y="231" key="SettingsEditor" timestamp="1584885034433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -365,13 +279,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="662" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584109046737" />
-    <state width="600" height="424" key="javadoc.popup" timestamp="1584892177771">
+    <state width="600" height="424" key="javadoc.popup" timestamp="1585324328573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="600" height="424" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584892177771" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584112344770">
+    <state width="600" height="424" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585324328573" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585322922043">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584112344770" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585322922043" />
   </component>
 </project>

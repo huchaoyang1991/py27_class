@@ -1,7 +1,20 @@
+import random
+
 from jsonpath import jsonpath
 
 
-class MyJson:
+class CommonUtil:
+    def random_phone(self, phone="155") -> str:
+        """
+        生成随机手机号码
+        :param phone: 手机号码头三位
+        :return:
+        """
+        for i in range(8):
+            num = str(random.randint(0, 9))
+            phone += num
+        return phone
+
     def get_json_all(self, res, expr) -> list:
         """
         jspnpath解析返回所有数据
@@ -21,4 +34,4 @@ class MyJson:
         return jsonpath(res, expr)[0]
 
 
-jsonpath_util = MyJson()
+common_util = CommonUtil()

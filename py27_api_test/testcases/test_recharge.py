@@ -1,6 +1,5 @@
 import decimal
 import os
-import unittest
 from unittest import TestCase
 
 import requests

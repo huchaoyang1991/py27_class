@@ -3,8 +3,10 @@ import unittest
 import random
 import requests
 
+from py27_03day.task_03day import phone
 from py27_api_test.common.handle_excel import HandleExcel
 from py27_api_test.lib.myddt import ddt, data
+from py27_api_test.utils.common_util import common_util
 from py27_api_test.utils.my_config import conf
 from py27_api_test.utils.my_excel import MyExcel
 from py27_api_test.utils.my_log import log
@@ -24,11 +26,7 @@ class LemonTestCase(unittest.TestCase):
     @classmethod
     def random_phone(cls):
         while True:
-            phone = "155"
-            for i in range(8):
-                num = str(random.randint(0, 9))
-                phone += num
-            log.debug("生成随机电话号码 phone={}".format(phone))
+            phone = common_util.random_phone()
             sql = "SELECT * FROM futureloan.member WHERE mobile_phone={}".format(phone)
             res = db.find_count(sql)
             if res == 0:

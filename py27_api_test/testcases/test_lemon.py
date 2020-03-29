@@ -6,18 +6,19 @@ import requests
 from py27_api_test.common.handle_excel import HandleExcel
 from py27_api_test.lib.myddt import ddt, data
 from py27_api_test.utils.my_config import conf
+from py27_api_test.utils.my_excel import MyExcel
 from py27_api_test.utils.my_log import log
 from py27_api_test.utils.my_mysql import db
 from py27_api_test.utils.my_path import DATA_DIR
 
-filename = os.path.join(DATA_DIR, "apicases.xlsx")  # TODO excel路径
+filename = os.path.join(DATA_DIR, "apicases.xlsx")
 
 
 @ddt
 class LemonTestCase(unittest.TestCase):
-    excel_login = HandleExcel(filename, "login")
+    excel_login = MyExcel(filename, "login")
     cases_login = excel_login.read_data()
-    excel_register = HandleExcel(filename, "register")
+    excel_register = MyExcel(filename, "register")
     cases_register = excel_register.read_data()
 
     @classmethod

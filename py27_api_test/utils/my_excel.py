@@ -33,7 +33,7 @@ class MyExcel:
         return cases_data
 
     def write_data(self, row, column, value):
-        work = openpyxl.load_workbook()
+        work = openpyxl.load_workbook(self.filename)
         sh = work[self.sheetname]
         sh.cell(row, column, value)
         work.save(self.filename)

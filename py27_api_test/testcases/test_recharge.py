@@ -1,5 +1,6 @@
 import decimal
 import os
+import unittest
 from unittest import TestCase
 
 import requests
@@ -16,7 +17,7 @@ filename = os.path.join(DATA_DIR, "apicases.xlsx")
 
 
 @ddt
-class RechargeTestCase(TestCase):
+class RechargeTestCase(unittest.TestCase):
     excel = MyExcel(filename, "recharge")
     cases = excel.read_data()
     db = MyMysql()

@@ -1,6 +1,5 @@
 import os
 import unittest
-from unittest import TestCase
 
 import requests
 
@@ -37,12 +36,14 @@ class AddTestCase(unittest.TestCase):
         headers["Authorization"] = self.token
         expected = eval(case["expected"])
         row = case["case_id"] + 1
-        if data["check_sql"]:
+        if case["check_sql"]:
             sql = case["check_sql"].replace("#member_id#", self.member_id)
             start_count = self.db.find_count(sql)
 
         response = requests.post(url=url, json=data, headers=headers)
         res = response.json()
+        print("预期结果：", expected)
+        print("实际结果：", res)
         # 断言
         try:
             self.assertEqual(expected["code"], res["code"])

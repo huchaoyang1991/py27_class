@@ -3,8 +3,7 @@ import unittest
 import random
 import requests
 
-from py27_03day.task_03day import phone
-from py27_api_test.common.handle_excel import HandleExcel
+
 from py27_api_test.lib.myddt import ddt, data
 from py27_api_test.utils.common_util import common_util
 from py27_api_test.utils.my_config import conf

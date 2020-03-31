@@ -7159,310 +7159,25 @@ body.skin-3 {
 
 
     var resultData = {
-    "testPass": 30,
+    "testPass": 16,
     "testResult": [
         {
-            "className": "LemonTestCase",
-            "methodName": "test_login_01",
-            "description": "登录成功",
-            "spendTime": "0.407 s",
-            "status": "失败",
-            "log": [
-                "预期结果: {'code': 0, 'msg': 'OK'}\n实际结果: {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}\n",
-                "Traceback (most recent call last):\n",
-                "  File \"E:\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
-                "  File \"E:\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 628, in run\n    testMethod()\n",
-                "  File \"D:\\Pywork\\py27_class\\py27_api_test\\lib\\myddt.py\", line 145, in wrapper\n    return func(self, *args, **kwargs)\n",
-                "  File \"D:\\Pywork\\py27_class\\py27_api_test\\testcases\\test_lemon.py\", line 57, in test_login\n    raise e\n",
-                "  File \"D:\\Pywork\\py27_class\\py27_api_test\\testcases\\test_lemon.py\", line 50, in test_login\n    self.assertEqual(response[\"code\"], expected[\"code\"])\n",
-                "  File \"E:\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 852, in assertEqual\n    assertion_func(first, second, msg=msg)\n",
-                "  File \"E:\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 845, in _baseAssertEqual\n    raise self.failureException(msg)\n",
-                "AssertionError: 1001 != 0\n"
-            ]
-        },
-        {
-            "className": "LemonTestCase",
-            "methodName": "test_login_02",
-            "description": "手机号为空",
-            "spendTime": "0.224 s",
-            "status": "失败",
-            "log": [
-                "预期结果: {'code': 1, 'msg': '手机号码为空'}\n实际结果: {'code': 2, 'msg': '手机号码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}\n",
-                "Traceback (most recent call last):\n",
-                "  File \"E:\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
-                "  File \"E:\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 628, in run\n    testMethod()\n",
-                "  File \"D:\\Pywork\\py27_class\\py27_api_test\\lib\\myddt.py\", line 145, in wrapper\n    return func(self, *args, **kwargs)\n",
-                "  File \"D:\\Pywork\\py27_class\\py27_api_test\\testcases\\test_lemon.py\", line 57, in test_login\n    raise e\n",
-                "  File \"D:\\Pywork\\py27_class\\py27_api_test\\testcases\\test_lemon.py\", line 50, in test_login\n    self.assertEqual(response[\"code\"], expected[\"code\"])\n",
-                "  File \"E:\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 852, in assertEqual\n    assertion_func(first, second, msg=msg)\n",
-                "  File \"E:\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 845, in _baseAssertEqual\n    raise self.failureException(msg)\n",
-                "AssertionError: 2 != 1\n"
-            ]
-        },
-        {
-            "className": "LemonTestCase",
-            "methodName": "test_login_03",
-            "description": "密码为空",
-            "spendTime": "0.225 s",
-            "status": "失败",
-            "log": [
-                "预期结果: {'code': 1, 'msg': '密码为空'}\n实际结果: {'code': 2, 'msg': '密码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}\n",
-                "Traceback (most recent call last):\n",
-                "  File \"E:\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
-                "  File \"E:\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 628, in run\n    testMethod()\n",
-                "  File \"D:\\Pywork\\py27_class\\py27_api_test\\lib\\myddt.py\", line 145, in wrapper\n    return func(self, *args, **kwargs)\n",
-                "  File \"D:\\Pywork\\py27_class\\py27_api_test\\testcases\\test_lemon.py\", line 57, in test_login\n    raise e\n",
-                "  File \"D:\\Pywork\\py27_class\\py27_api_test\\testcases\\test_lemon.py\", line 50, in test_login\n    self.assertEqual(response[\"code\"], expected[\"code\"])\n",
-                "  File \"E:\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 852, in assertEqual\n    assertion_func(first, second, msg=msg)\n",
-                "  File \"E:\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 845, in _baseAssertEqual\n    raise self.failureException(msg)\n",
-                "AssertionError: 2 != 1\n"
-            ]
-        },
-        {
-            "className": "LemonTestCase",
-            "methodName": "test_login_04",
-            "description": "手机号未注册",
-            "spendTime": "0.357 s",
-            "status": "成功",
-            "log": [
-                "预期结果: {'code': 1001, 'msg': '账号信息错误'}",
-                "实际结果: {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "LemonTestCase",
-            "methodName": "test_login_05",
-            "description": "密码错误",
-            "spendTime": "0.356 s",
-            "status": "成功",
-            "log": [
-                "预期结果: {'code': 1001, 'msg': '账号信息错误'}",
-                "实际结果: {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "LemonTestCase",
-            "methodName": "test_login_06",
-            "description": "手机号格式错误",
-            "spendTime": "0.24 s",
-            "status": "成功",
-            "log": [
-                "预期结果: {'code': 2, 'msg': '无效的手机格式'}",
-                "实际结果: {'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "LemonTestCase",
-            "methodName": "test_register_01",
-            "description": "注册成功-带注册名",
-            "spendTime": "0.817 s",
-            "status": "成功",
-            "log": [
-                "预期结果: {'code': 0, 'msg': 'OK'}",
-                "实际结果: {'code': 0, 'msg': 'OK', 'data': {'id': 7978537, 'reg_name': '34254sdfs', 'mobile_phone': '15536292591'}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "LemonTestCase",
-            "methodName": "test_register_02",
-            "description": "成功-不带用户名",
+            "className": "AddTestCase",
+            "methodName": "test_add_01",
+            "description": "加标成功",
             "spendTime": "0.836 s",
             "status": "成功",
             "log": [
-                "预期结果: {'code': 0, 'msg': 'OK'}",
-                "实际结果: {'code': 0, 'msg': 'OK', 'data': {'id': 7978538, 'reg_name': '小柠檬', 'mobile_phone': '15510437899'}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "LemonTestCase",
-            "methodName": "test_register_03",
-            "description": "不输入手机号",
-            "spendTime": "0.235 s",
-            "status": "成功",
-            "log": [
-                "预期结果: {'code': 1, 'msg': '手机号为空'}",
-                "实际结果: {'code': 1, 'msg': '手机号为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "LemonTestCase",
-            "methodName": "test_register_04",
-            "description": "手机号长度10位",
-            "spendTime": "0.224 s",
-            "status": "成功",
-            "log": [
-                "预期结果: {'code': 2, 'msg': '无效的手机格式'}",
-                "实际结果: {'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "LemonTestCase",
-            "methodName": "test_register_05",
-            "description": "手机号长度12位",
-            "spendTime": "0.219 s",
-            "status": "成功",
-            "log": [
-                "预期结果: {'code': 2, 'msg': '无效的手机格式'}",
-                "实际结果: {'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "LemonTestCase",
-            "methodName": "test_register_06",
-            "description": "手机号含有非法字符",
-            "spendTime": "0.253 s",
-            "status": "成功",
-            "log": [
-                "预期结果: {'code': 2, 'msg': '无效的手机格式'}",
-                "实际结果: {'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "LemonTestCase",
-            "methodName": "test_register_07",
-            "description": "已注册过的手机号",
-            "spendTime": "0.356 s",
-            "status": "成功",
-            "log": [
-                "预期结果: {'code': 2, 'msg': '账号已存在'}",
-                "实际结果: {'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "LemonTestCase",
-            "methodName": "test_register_08",
-            "description": "密码7位",
-            "spendTime": "0.234 s",
-            "status": "成功",
-            "log": [
-                "预期结果: {'code': 2, 'msg': '密码格式为8到16位'}",
-                "实际结果: {'code': 2, 'msg': '密码格式为8到16位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "LemonTestCase",
-            "methodName": "test_register_09",
-            "description": "密码17位",
-            "spendTime": "0.221 s",
-            "status": "成功",
-            "log": [
-                "预期结果: {'code': 2, 'msg': '密码格式为8到16位'}",
-                "实际结果: {'code': 2, 'msg': '密码格式为8到16位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "LemonTestCase",
-            "methodName": "test_register_10",
-            "description": "不输入密码",
-            "spendTime": "0.225 s",
-            "status": "成功",
-            "log": [
-                "预期结果: {'code': 1, 'msg': '密码为空'}",
-                "实际结果: {'code': 1, 'msg': '密码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "LemonTestCase",
-            "methodName": "test_register_11",
-            "description": "注册名11位",
-            "spendTime": "0.234 s",
-            "status": "成功",
-            "log": [
-                "预期结果: {'code': 2, 'msg': '用户昵称长度超过10位'}",
-                "实际结果: {'code': 2, 'msg': '用户昵称长度超过10位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "LemonTestCase",
-            "methodName": "test_register_12",
-            "description": "类型输入非0，1内容",
-            "spendTime": "0.242 s",
-            "status": "成功",
-            "log": [
-                "预期结果: {'code': 2, 'msg': '不支持的用户类型'}",
-                "实际结果: {'code': 2, 'msg': '不支持的用户类型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "LemonTestCase",
-            "methodName": "test_register_13",
-            "description": "不输入类型",
-            "spendTime": "0.774 s",
-            "status": "成功",
-            "log": [
-                "预期结果: {'code': 0, 'msg': 'OK'}",
-                "实际结果: {'code': 0, 'msg': 'OK', 'data': {'id': 7978539, 'reg_name': '小柠檬', 'mobile_phone': '15563438536'}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "RechargeTestCase",
-            "methodName": "test_recharge_01",
-            "description": "充值成功-整数",
-            "spendTime": "0.401 s",
-            "status": "成功",
-            "log": [
                 "预期结果： {'code': 0, 'msg': 'OK'}",
-                "实际结果： {'code': 0, 'msg': 'OK', 'data': {'id': 281, 'leave_amount': 49402200.63, 'mobile_phone': '13367899876', 'reg_name': '小柠檬666', 'reg_time': '2020-02-29 14:18:43.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                "实际结果： {'code': 0, 'msg': 'OK', 'data': {'id': 49884, 'member_id': 281, 'title': '借钱实现财富自由', 'amount': 2000.0, 'loan_rate': 12.0, 'loan_term': 3, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-04-01 02:12:49.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
                 ""
             ]
         },
         {
-            "className": "RechargeTestCase",
-            "methodName": "test_recharge_02",
-            "description": "充值成功-1位小数",
-            "spendTime": "0.391 s",
-            "status": "成功",
-            "log": [
-                "预期结果： {'code': 0, 'msg': 'OK'}",
-                "实际结果： {'code': 0, 'msg': 'OK', 'data': {'id': 281, 'leave_amount': 49402800.73, 'mobile_phone': '13367899876', 'reg_name': '小柠檬666', 'reg_time': '2020-02-29 14:18:43.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "RechargeTestCase",
-            "methodName": "test_recharge_03",
-            "description": "充值成功-2位小数",
-            "spendTime": "0.395 s",
-            "status": "成功",
-            "log": [
-                "预期结果： {'code': 0, 'msg': 'OK'}",
-                "实际结果： {'code': 0, 'msg': 'OK', 'data': {'id': 281, 'leave_amount': 49403400.95, 'mobile_phone': '13367899876', 'reg_name': '小柠檬666', 'reg_time': '2020-02-29 14:18:43.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "RechargeTestCase",
-            "methodName": "test_recharge_04",
-            "description": "充值成功-50万",
-            "spendTime": "0.421 s",
-            "status": "成功",
-            "log": [
-                "预期结果： {'code': 0, 'msg': 'OK'}",
-                "实际结果： {'code': 0, 'msg': 'OK', 'data': {'id': 281, 'leave_amount': 49903400.95, 'mobile_phone': '13367899876', 'reg_name': '小柠檬666', 'reg_time': '2020-02-29 14:18:43.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "RechargeTestCase",
-            "methodName": "test_recharge_05",
-            "description": "会员id为空",
-            "spendTime": "0.077 s",
+            "className": "AddTestCase",
+            "methodName": "test_add_02",
+            "description": "加标失败—借款人id为空",
+            "spendTime": "0.309 s",
             "status": "成功",
             "log": [
                 "预期结果： {'code': 1, 'msg': '用户id为空'}",
@@ -7471,10 +7186,82 @@ body.skin-3 {
             ]
         },
         {
-            "className": "RechargeTestCase",
-            "methodName": "test_recharge_06",
-            "description": "id不是当前登录的用户",
-            "spendTime": "0.085 s",
+            "className": "AddTestCase",
+            "methodName": "test_add_03",
+            "description": "加标失败—标题为空",
+            "spendTime": "0.319 s",
+            "status": "成功",
+            "log": [
+                "预期结果： {'code': 1, 'msg': '标题为空'}",
+                "实际结果： {'code': 1, 'msg': '标题为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                ""
+            ]
+        },
+        {
+            "className": "AddTestCase",
+            "methodName": "test_add_04",
+            "description": "加标失败—借款金额为空",
+            "spendTime": "0.331 s",
+            "status": "成功",
+            "log": [
+                "预期结果： {'code': 1, 'msg': '借款金额为空'}",
+                "实际结果： {'code': 1, 'msg': '借款金额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                ""
+            ]
+        },
+        {
+            "className": "AddTestCase",
+            "methodName": "test_add_05",
+            "description": "加标失败—年利率为空",
+            "spendTime": "0.312 s",
+            "status": "成功",
+            "log": [
+                "预期结果： {'code': 1, 'msg': '利率为空'}",
+                "实际结果： {'code': 1, 'msg': '利率为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                ""
+            ]
+        },
+        {
+            "className": "AddTestCase",
+            "methodName": "test_add_06",
+            "description": "加标失败—借款期限为空",
+            "spendTime": "0.32 s",
+            "status": "成功",
+            "log": [
+                "预期结果： {'code': 1, 'msg': '借款期限为空'}",
+                "实际结果： {'code': 1, 'msg': '借款期限为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                ""
+            ]
+        },
+        {
+            "className": "AddTestCase",
+            "methodName": "test_add_07",
+            "description": "加标失败—借款期限类型为空",
+            "spendTime": "0.323 s",
+            "status": "成功",
+            "log": [
+                "预期结果： {'code': 1, 'msg': '借款日期类型为空'}",
+                "实际结果： {'code': 1, 'msg': '借款日期类型为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                ""
+            ]
+        },
+        {
+            "className": "AddTestCase",
+            "methodName": "test_add_08",
+            "description": "加标失败—竞标天数为空",
+            "spendTime": "0.327 s",
+            "status": "成功",
+            "log": [
+                "预期结果： {'code': 1, 'msg': '竞标期限为空'}",
+                "实际结果： {'code': 1, 'msg': '竞标期限为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                ""
+            ]
+        },
+        {
+            "className": "AddTestCase",
+            "methodName": "test_add_09",
+            "description": "加标失败—借款人id不是当前登录用户",
+            "spendTime": "0.308 s",
             "status": "成功",
             "log": [
                 "预期结果： {'code': 1007, 'msg': '无权限访问，请检查参数'}",
@@ -7483,107 +7270,114 @@ body.skin-3 {
             ]
         },
         {
-            "className": "RechargeTestCase",
-            "methodName": "test_recharge_07",
-            "description": "会员id为字符串",
-            "spendTime": "0.085 s",
+            "className": "AddTestCase",
+            "methodName": "test_add_10",
+            "description": "加标失败—借款金额为负数",
+            "spendTime": "0.319 s",
             "status": "成功",
             "log": [
-                "预期结果： {'code': 2, 'msg': '数字格式化异常'}",
-                "实际结果： {'code': 0, 'msg': 'OK', 'data': {'id': 281, 'leave_amount': 49904000.95, 'mobile_phone': '13367899876', 'reg_name': '小柠檬666', 'reg_time': '2020-02-29 14:18:43.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                "预期结果： {'code': 2, 'msg': '借款金额范围错误'}",
+                "实际结果： {'code': 2, 'msg': '借款金额范围错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
                 ""
             ]
         },
         {
-            "className": "RechargeTestCase",
-            "methodName": "test_recharge_08",
-            "description": "会员id为小数",
-            "spendTime": "0.086 s",
+            "className": "AddTestCase",
+            "methodName": "test_add_11",
+            "description": "加标失败—借款金额为小数",
+            "spendTime": "0.318 s",
             "status": "成功",
             "log": [
-                "预期结果： {'code': 2, 'msg': '数字格式化异常'}",
-                "实际结果： {'code': 2, 'msg': '数字格式化异常', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                "预期结果： {'code': 2, 'msg': '借款金额范围错误'}",
+                "实际结果： {'code': 2, 'msg': '借款金额范围错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
                 ""
             ]
         },
         {
-            "className": "RechargeTestCase",
-            "methodName": "test_recharge_09",
-            "description": "充值金额为0",
-            "spendTime": "0.088 s",
+            "className": "AuditTestCase",
+            "methodName": "test_audit_1",
+            "description": "审核通过",
+            "spendTime": "0.398 s",
             "status": "成功",
             "log": [
-                "预期结果： {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'}",
-                "实际结果： {'code': 0, 'msg': 'OK', 'data': {'id': 281, 'leave_amount': 49904000.95, 'mobile_phone': '13367899876', 'reg_name': '小柠檬666', 'reg_time': '2020-02-29 14:18:43.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                "预期结果： {'code': 0, 'msg': 'OK', 'status': 2}",
+                "实际结果： {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
                 ""
             ]
         },
         {
-            "className": "RechargeTestCase",
-            "methodName": "test_recharge_10",
-            "description": "充值金额为负数",
-            "spendTime": "0.08 s",
+            "className": "AuditTestCase",
+            "methodName": "test_audit_2",
+            "description": "审核不通过",
+            "spendTime": "0.41 s",
             "status": "成功",
             "log": [
-                "预期结果： {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000'}",
-                "实际结果： {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                "预期结果： {'code': 0, 'msg': 'OK', 'status': 5}",
+                "实际结果： {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
                 ""
             ]
         },
         {
-            "className": "RechargeTestCase",
-            "methodName": "test_recharge_11",
-            "description": "充值金额为空",
-            "spendTime": "0.075 s",
+            "className": "AuditTestCase",
+            "methodName": "test_audit_3",
+            "description": "项目不待审核状态",
+            "spendTime": "0.094 s",
+            "status": "错误",
+            "log": [
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"E:\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"E:\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 628, in run\n    testMethod()\n",
+                "  File \"D:\\Pywork\\py27_class\\py27_api_test\\lib\\myddt.py\", line 145, in wrapper\n    return func(self, *args, **kwargs)\n",
+                "  File \"D:\\Pywork\\py27_class\\py27_api_test\\testcases\\test_audit.py\", line 61, in test_audit\n    data = eval(case[\"data\"].replace(\"#loan_id#\", str(self.load_id)))\n",
+                "  File \"<string>\", line 1\n",
+                "    {\"loan_id\":#pass_loan_id#,\"approved_or_not\": False}\n",
+                "                                                      ^\n",
+                "SyntaxError: unexpected EOF while parsing\n"
+            ]
+        },
+        {
+            "className": "AuditTestCase",
+            "methodName": "test_audit_4",
+            "description": "参数approved_or_not为空",
+            "spendTime": "0.407 s",
             "status": "成功",
             "log": [
-                "预期结果： {'code': 1, 'msg': '充值金额为空'}",
-                "实际结果： {'code': 2, 'msg': '数字格式化异常', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                "预期结果： {'code': 1, 'msg': 'approved_or_not为空'}",
+                "实际结果： {'code': 1, 'msg': 'approved_or_not为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
                 ""
             ]
         },
         {
-            "className": "RechargeTestCase",
-            "methodName": "test_recharge_12",
-            "description": "充值金额-3位小数",
-            "spendTime": "0.084 s",
+            "className": "AuditTestCase",
+            "methodName": "test_audit_5",
+            "description": "项目id为空",
+            "spendTime": "0.4 s",
             "status": "成功",
             "log": [
-                "预期结果： {'code': 2, 'msg': '金额小数超过两位'}",
-                "实际结果： {'code': 2, 'msg': '余额小数超过两位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                "预期结果： {'code': 1, 'msg': '项目id为空'}",
+                "实际结果： {'code': 1, 'msg': '项目id为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
                 ""
             ]
         },
         {
-            "className": "RechargeTestCase",
-            "methodName": "test_recharge_13",
-            "description": "充值金额-大于50万",
-            "spendTime": "0.083 s",
+            "className": "AuditTestCase",
+            "methodName": "test_audit_6",
+            "description": "项目id不存在",
+            "spendTime": "0.391 s",
             "status": "成功",
             "log": [
-                "预期结果： {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'}",
-                "实际结果： {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "RechargeTestCase",
-            "methodName": "test_recharge_14",
-            "description": "充值金额-非数字",
-            "spendTime": "0.071 s",
-            "status": "成功",
-            "log": [
-                "预期结果： {'code': 2, 'msg': '数字格式化异常'}",
-                "实际结果： {'code': 2, 'msg': '数字格式化异常', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                "预期结果： {'code': 2, 'msg': '项目不存在'}",
+                "实际结果： {'code': 2, 'msg': '项目不存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
                 ""
             ]
         }
     ],
     "testName": "柠檬班接口测试报告",
-    "testAll": 33,
-    "testFail": 3,
-    "beginTime": "2020-03-29 22:03:06",
-    "totalTime": "9s",
+    "testAll": 17,
+    "testFail": 1,
+    "beginTime": "2020-04-01 02:15:50",
+    "totalTime": "7s",
     "testSkip": 0,
     "testError": 0
 };

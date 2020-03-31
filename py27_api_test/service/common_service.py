@@ -6,7 +6,7 @@ from py27_api_test.utils.my_log import log
 
 
 class CommonService:
-    def login(self) -> list:
+    def login(self, mobile_phone=conf.get("test_data", "phone"), pwd=conf.get("test_data", "pwd")) -> list:
         """
         登录
         :param username: 用户名
@@ -16,8 +16,8 @@ class CommonService:
 
         url = conf.get("env", "url") + "/member/login"
         data = {
-            "mobile_phone": conf.get("test_data", "phone"),
-            "pwd": conf.get("test_data", "pwd")
+            "mobile_phone": mobile_phone,
+            "pwd": pwd
         }
         headers = eval(conf.get("env", "headers"))
         response = requests.post(url=url, json=data, headers=headers)

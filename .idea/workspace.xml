@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d346e650-2bb1-46ce-8c6c-8896f6a3b8be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/py27_class.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/py27_class.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_api_test/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/config/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_api_test/data/apicases.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/data/apicases.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_api_test/logs/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/logs/all.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_api_test/reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/reports/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/py27_api_test/service/common_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/service/common_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_api_test/testcases/test_lemon.py" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/testcases/test_lemon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_api_test/testcases/test_recharge.py" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/testcases/test_recharge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_api_test/utils/my_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_api_test/testcases/test_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/testcases/test_add.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_api_test/testcases/test_audit.py" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/testcases/test_audit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_api_test/testcases/test_lemon.py" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/testcases/1test_lemon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_api_test/testcases/test_recharge.py" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/testcases/1test_recharge.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,11 +85,6 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Pywork\py27_class" />
-      <recent name="D:\Pywork\py27_class\py27_14day" />
-      <recent name="D:\Pywork\py27_class\py27_02day" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Pywork\py27_class\py27_api_test\data" />
       <recent name="D:\Pywork\py27_class" />
@@ -89,8 +92,13 @@
       <recent name="D:\Pywork\py27_class\xmind" />
       <recent name="D:\Pywork\py27_class\py27_17day\task_17day" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Pywork\py27_class" />
+      <recent name="D:\Pywork\py27_class\py27_14day" />
+      <recent name="D:\Pywork\py27_class\py27_02day" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.common_util">
+  <component name="RunManager" selected="Python.run_test">
     <configuration name="common_service" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py27_class" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,8 +199,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.common_util" />
         <item itemvalue="Python.run_test" />
+        <item itemvalue="Python.common_util" />
         <item itemvalue="Python.common_service" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python tests.Unittests for test_lemon.LemonTestCase" />
@@ -245,6 +253,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585492750088">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -254,22 +273,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1118" y="383" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584454411707" />
-    <state width="1898" height="179" key="GridCell.Tab.0.bottom" timestamp="1585492902939">
+    <state width="1898" height="286" key="GridCell.Tab.0.bottom" timestamp="1585678547988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="179" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585492902939" />
-    <state width="1898" height="179" key="GridCell.Tab.0.center" timestamp="1585492902939">
+    <state width="1898" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585678547988" />
+    <state width="1898" height="286" key="GridCell.Tab.0.center" timestamp="1585678547988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="179" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585492902939" />
-    <state width="1898" height="179" key="GridCell.Tab.0.left" timestamp="1585492902938">
+    <state width="1898" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585678547988" />
+    <state width="1898" height="286" key="GridCell.Tab.0.left" timestamp="1585678547988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="179" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585492902938" />
-    <state width="1898" height="179" key="GridCell.Tab.0.right" timestamp="1585492902939">
+    <state width="1898" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585678547988" />
+    <state width="1898" height="286" key="GridCell.Tab.0.right" timestamp="1585678547988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="179" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585492902939" />
+    <state width="1898" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585678547988" />
     <state x="824" y="241" key="RollbackChangesDialog" timestamp="1585486148806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -278,6 +297,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="581" y="231" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584885034433" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585676435213">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585676435213" />
     <state x="662" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1584109046737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -286,10 +309,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="758" y="204" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585486129889" />
-    <state width="600" height="424" key="javadoc.popup" timestamp="1585492434300">
+    <state width="600" height="424" key="javadoc.popup" timestamp="1585678280822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="600" height="424" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585492434300" />
+    <state width="600" height="424" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585678280822" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585322922043">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

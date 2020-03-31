@@ -1,0 +1,69 @@
+2020-04-01 02:15:50,648 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:50,735 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+2020-04-01 02:15:50,736 -- [common_service.py-->line:25] - DEBUG: res={'code': 0, 'msg': 'OK', 'data': {'id': 281, 'leave_amount': 55095779.58, 'mobile_phone': '13367899876', 'reg_name': '小柠檬666', 'reg_time': '2020-02-29 14:18:43.0', 'type': 1, 'token_info': {'token_type': 'Bearer', 'expires_in': '2020-04-01 02:17:48', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjI4MSwiZXhwIjoxNTg1Njc4NjY4fQ.F1ZVJQYhrnZEMRjj-HAJkNMJYIC9mBkceNXQ_-C3zTrZDYrvlrBrTMR-u1HnTD9-dqbPa31Lu7v1zm-J82IPUw'}}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-01 02:15:51,041 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:51,125 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+2020-04-01 02:15:51,330 -- [test_add.py-->line:66] - INFO: 用例--加标成功--执行通过
+2020-04-01 02:15:51,580 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:51,651 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+2020-04-01 02:15:51,652 -- [test_add.py-->line:66] - INFO: 用例--加标失败—借款人id为空--执行通过
+2020-04-01 02:15:51,889 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:51,965 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+2020-04-01 02:15:51,966 -- [test_add.py-->line:66] - INFO: 用例--加标失败—标题为空--执行通过
+2020-04-01 02:15:52,208 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:52,284 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+2020-04-01 02:15:52,286 -- [test_add.py-->line:66] - INFO: 用例--加标失败—借款金额为空--执行通过
+2020-04-01 02:15:52,540 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:52,616 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+2020-04-01 02:15:52,617 -- [test_add.py-->line:66] - INFO: 用例--加标失败—年利率为空--执行通过
+2020-04-01 02:15:52,852 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:52,930 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+2020-04-01 02:15:52,931 -- [test_add.py-->line:66] - INFO: 用例--加标失败—借款期限为空--执行通过
+2020-04-01 02:15:53,171 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:53,257 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+2020-04-01 02:15:53,258 -- [test_add.py-->line:66] - INFO: 用例--加标失败—借款期限类型为空--执行通过
+2020-04-01 02:15:53,494 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:53,578 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+2020-04-01 02:15:53,580 -- [test_add.py-->line:66] - INFO: 用例--加标失败—竞标天数为空--执行通过
+2020-04-01 02:15:53,823 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:53,897 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+2020-04-01 02:15:53,898 -- [test_add.py-->line:66] - INFO: 用例--加标失败—借款人id不是当前登录用户--执行通过
+2020-04-01 02:15:54,130 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:54,209 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+2020-04-01 02:15:54,210 -- [test_add.py-->line:66] - INFO: 用例--加标失败—借款金额为负数--执行通过
+2020-04-01 02:15:54,449 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:54,524 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+2020-04-01 02:15:54,525 -- [test_add.py-->line:66] - INFO: 用例--加标失败—借款金额为小数--执行通过
+2020-04-01 02:15:54,767 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:54,837 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+2020-04-01 02:15:54,838 -- [common_service.py-->line:25] - DEBUG: res={'code': 0, 'msg': 'OK', 'data': {'id': 281, 'leave_amount': 55095779.58, 'mobile_phone': '13367899876', 'reg_name': '小柠檬666', 'reg_time': '2020-02-29 14:18:43.0', 'type': 1, 'token_info': {'token_type': 'Bearer', 'expires_in': '2020-04-01 02:17:52', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjI4MSwiZXhwIjoxNTg1Njc4NjcyfQ.bY5Rk7ASPVbMVzquR5a3bvnW1WVRzNZ3TYMJBNNoIWUfnfDmr4Vq0d6au_KUxrPud7HgAKt8hJfXTYXS4DLpFw'}}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-01 02:15:54,842 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:54,917 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/member/login HTTP/1.1" 200 None
+2020-04-01 02:15:54,918 -- [common_service.py-->line:25] - DEBUG: res={'code': 0, 'msg': 'OK', 'data': {'id': 8006461, 'leave_amount': 0.0, 'mobile_phone': '13367855566', 'reg_name': '小柠檬', 'reg_time': '2020-03-31 21:26:13.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2020-04-01 02:17:52', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjgwMDY0NjEsImV4cCI6MTU4NTY3ODY3Mn0.EI7mwHFO4z15pzw0TRZJABTNcFV8h9ccQ9hSipxDYw6ul_DgH8EHejPJXUCCZeZr6xkOfWLb_3LJ-ESo0UZJKQ'}}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-04-01 02:15:54,922 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:54,995 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+2020-04-01 02:15:54,999 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:55,080 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "PATCH /futureloan/loan/audit HTTP/1.1" 200 None
+2020-04-01 02:15:55,081 -- [test_audit.py-->line:84] - INFO: 用例--审核通过--执行通过
+2020-04-01 02:15:55,320 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:55,408 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+2020-04-01 02:15:55,413 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:55,490 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "PATCH /futureloan/loan/audit HTTP/1.1" 200 None
+2020-04-01 02:15:55,491 -- [test_audit.py-->line:84] - INFO: 用例--审核不通过--执行通过
+2020-04-01 02:15:55,730 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:55,817 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+2020-04-01 02:15:55,824 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:55,908 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+2020-04-01 02:15:55,912 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:55,987 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "PATCH /futureloan/loan/audit HTTP/1.1" 200 None
+2020-04-01 02:15:55,988 -- [test_audit.py-->line:84] - INFO: 用例--参数approved_or_not为空--执行通过
+2020-04-01 02:15:56,232 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:56,309 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+2020-04-01 02:15:56,313 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:56,385 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "PATCH /futureloan/loan/audit HTTP/1.1" 200 None
+2020-04-01 02:15:56,386 -- [test_audit.py-->line:84] - INFO: 用例--项目id为空--执行通过
+2020-04-01 02:15:56,631 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:56,711 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "POST /futureloan/loan/add HTTP/1.1" 200 None
+2020-04-01 02:15:56,715 -- [connectionpool.py-->line:225] - DEBUG: Starting new HTTP connection (1): api.lemonban.com:80
+2020-04-01 02:15:56,787 -- [connectionpool.py-->line:437] - DEBUG: http://api.lemonban.com:80 "PATCH /futureloan/loan/audit HTTP/1.1" 200 None
+2020-04-01 02:15:56,788 -- [test_audit.py-->line:84] - INFO: 用例--项目id不存在--执行通过

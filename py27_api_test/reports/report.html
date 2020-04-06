@@ -7159,225 +7159,151 @@ body.skin-3 {
 
 
     var resultData = {
-    "testPass": 16,
+    "testPass": 11,
     "testResult": [
         {
-            "className": "AddTestCase",
-            "methodName": "test_add_01",
-            "description": "加标成功",
-            "spendTime": "0.836 s",
+            "className": "LoansTestCase",
+            "methodName": "test_loans_1",
+            "description": "默认参数",
+            "spendTime": "0.389 s",
             "status": "成功",
             "log": [
                 "预期结果： {'code': 0, 'msg': 'OK'}",
-                "实际结果： {'code': 0, 'msg': 'OK', 'data': {'id': 49884, 'member_id': 281, 'title': '借钱实现财富自由', 'amount': 2000.0, 'loan_rate': 12.0, 'loan_term': 3, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-04-01 02:12:49.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                "实际结果： {'code': 0, 'msg': 'OK', 'data': [{'id': 1, 'member_id': 2, 'title': '接口', 'amount': 100000.0, 'loan_rate': 12.0, 'loan_term': 6, 'loan_date_type': 2, 'bidding_days': 5, 'create_time': '2020-02-29 12:30:47.0', 'bidding_start_time': '2020-02-29 12:31:03.0', 'full_time': '2020-03-03 10:01:18.0', 'status': 2}, {'id': 2, 'member_id': 2, 'title': '接口自动化测试', 'amount': 100000.0, 'loan_rate': 12.0, 'loan_term': 6, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-02-29 12:36:26.0', 'bidding_start_time': None, 'full_time': None, 'status': 5}, {'id': 3, 'member_id': 2, 'title': '接口自动化测试', 'amount': 100000.0, 'loan_rate': 12.0, 'loan_term': 6, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-02-29 12:43:28.0', 'bidding_start_time': None, 'full_time': None, 'status': 5}, {'id': 4, 'member_id': 1, 'title': '接口自动化测试', 'amount': 100000.0, 'loan_rate': 12.0, 'loan_term': 6, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-02-29 12:44:19.0', 'bidding_start_time': '2020-03-02 17:29:13.0', 'full_time': '2020-03-03 23:01:50.0', 'status': 3}, {'id': 5, 'member_id': 146, 'title': '锋芒的22期python', 'amount': 100.0, 'loan_rate': 18.0, 'loan_term': 4, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-02-29 13:24:06.0', 'bidding_start_time': None, 'full_time': None, 'status': 5}, {'id': 6, 'member_id': 146, 'title': '锋芒的22期python', 'amount': 100.0, 'loan_rate': 18.0, 'loan_term': 4, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-02-29 13:24:57.0', 'bidding_start_time': '2020-02-29 13:24:59.0', 'full_time': '2020-02-29 13:25:02.0', 'status': 3}, {'id': 7, 'member_id': 129, 'title': 'simple资金周转', 'amount': 6300.0, 'loan_rate': 12.0, 'loan_term': 12, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-02-29 13:25:32.0', 'bidding_start_time': '2020-03-02 17:40:55.0', 'full_time': '2020-03-03 23:03:24.0', 'status': 3}, {'id': 8, 'member_id': 129, 'title': 'simple资金周转', 'amount': 6500.0, 'loan_rate': 24.0, 'loan_term': 6, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-02-29 13:25:32.0', 'bidding_start_time': None, 'full_time': None, 'status': 5}, {'id': 9, 'member_id': 129, 'title': 'simple资金周转', 'amount': 6600.0, 'loan_rate': 12.6, 'loan_term': 30, 'loan_date_type': 2, 'bidding_days': 5, 'create_time': '2020-02-29 13:25:33.0', 'bidding_start_time': None, 'full_time': None, 'status': 5}, {'id': 10, 'member_id': 129, 'title': 'simpl', 'amount': 1000000.0, 'loan_rate': 23.9, 'loan_term': 30, 'loan_date_type': 2, 'bidding_days': 5, 'create_time': '2020-02-29 13:25:34.0', 'bidding_start_time': None, 'full_time': None, 'status': 5}], 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
                 ""
             ]
         },
         {
-            "className": "AddTestCase",
-            "methodName": "test_add_02",
-            "description": "加标失败—借款人id为空",
-            "spendTime": "0.309 s",
+            "className": "LoansTestCase",
+            "methodName": "test_loans_2",
+            "description": "翻页-6",
+            "spendTime": "0.499 s",
             "status": "成功",
             "log": [
+                "预期结果： {'code': 0, 'msg': 'OK'}",
+                "实际结果： {'code': 0, 'msg': 'OK', 'data': [{'id': 1, 'member_id': 2, 'title': '接口', 'amount': 100000.0, 'loan_rate': 12.0, 'loan_term': 6, 'loan_date_type': 2, 'bidding_days': 5, 'create_time': '2020-02-29 12:30:47.0', 'bidding_start_time': '2020-02-29 12:31:03.0', 'full_time': '2020-03-03 10:01:18.0', 'status': 2}, {'id': 2, 'member_id': 2, 'title': '接口自动化测试', 'amount': 100000.0, 'loan_rate': 12.0, 'loan_term': 6, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-02-29 12:36:26.0', 'bidding_start_time': None, 'full_time': None, 'status': 5}, {'id': 3, 'member_id': 2, 'title': '接口自动化测试', 'amount': 100000.0, 'loan_rate': 12.0, 'loan_term': 6, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-02-29 12:43:28.0', 'bidding_start_time': None, 'full_time': None, 'status': 5}, {'id': 4, 'member_id': 1, 'title': '接口自动化测试', 'amount': 100000.0, 'loan_rate': 12.0, 'loan_term': 6, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-02-29 12:44:19.0', 'bidding_start_time': '2020-03-02 17:29:13.0', 'full_time': '2020-03-03 23:01:50.0', 'status': 3}, {'id': 5, 'member_id': 146, 'title': '锋芒的22期python', 'amount': 100.0, 'loan_rate': 18.0, 'loan_term': 4, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-02-29 13:24:06.0', 'bidding_start_time': None, 'full_time': None, 'status': 5}, {'id': 6, 'member_id': 146, 'title': '锋芒的22期python', 'amount': 100.0, 'loan_rate': 18.0, 'loan_term': 4, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-02-29 13:24:57.0', 'bidding_start_time': '2020-02-29 13:24:59.0', 'full_time': '2020-02-29 13:25:02.0', 'status': 3}, {'id': 7, 'member_id': 129, 'title': 'simple资金周转', 'amount': 6300.0, 'loan_rate': 12.0, 'loan_term': 12, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-02-29 13:25:32.0', 'bidding_start_time': '2020-03-02 17:40:55.0', 'full_time': '2020-03-03 23:03:24.0', 'status': 3}, {'id': 8, 'member_id': 129, 'title': 'simple资金周转', 'amount': 6500.0, 'loan_rate': 24.0, 'loan_term': 6, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-02-29 13:25:32.0', 'bidding_start_time': None, 'full_time': None, 'status': 5}, {'id': 9, 'member_id': 129, 'title': 'simple资金周转', 'amount': 6600.0, 'loan_rate': 12.6, 'loan_term': 30, 'loan_date_type': 2, 'bidding_days': 5, 'create_time': '2020-02-29 13:25:33.0', 'bidding_start_time': None, 'full_time': None, 'status': 5}, {'id': 10, 'member_id': 129, 'title': 'simpl', 'amount': 1000000.0, 'loan_rate': 23.9, 'loan_term': 30, 'loan_date_type': 2, 'bidding_days': 5, 'create_time': '2020-02-29 13:25:34.0', 'bidding_start_time': None, 'full_time': None, 'status': 5}], 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                ""
+            ]
+        },
+        {
+            "className": "LoansTestCase",
+            "methodName": "test_loans_3",
+            "description": "每页大小-100",
+            "spendTime": "0.479 s",
+            "status": "成功",
+            "log": [
+                "预期结果： {'code': 0, 'msg': 'OK'}",
+                "实际结果： {'code': 0, 'msg': 'OK', 'data': [{'id': 1, 'member_id': 2, 'title': '接口', 'amount': 100000.0, 'loan_rate': 12.0, 'loan_term': 6, 'loan_date_type': 2, 'bidding_days': 5, 'create_time': '2020-02-29 12:30:47.0', 'bidding_start_time': '2020-02-29 12:31:03.0', 'full_time': '2020-03-03 10:01:18.0', 'status': 2}, {'id': 2, 'member_id': 2, 'title': '接口自动化测试', 'amount': 100000.0, 'loan_rate': 12.0, 'loan_term': 6, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-02-29 12:36:26.0', 'bidding_start_time': None, 'full_time': None, 'status': 5}, {'id': 3, 'member_id': 2, 'title': '接口自动化测试', 'amount': 100000.0, 'loan_rate': 12.0, 'loan_term': 6, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-02-29 12:43:28.0', 'bidding_start_time': None, 'full_time': None, 'status': 5}, {'id': 4, 'member_id': 1, 'title': '接口自动化测试', 'amount': 100000.0, 'loan_rate': 12.0, 'loan_term': 6, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-02-29 12:44:19.0', 'bidding_start_time': '2020-03-02 17:29:13.0', 'full_time': '2020-03-03 23:01:50.0', 'status': 3}, {'id': 5, 'member_id': 146, 'title': '锋芒的22期python', 'amount': 100.0, 'loan_rate': 18.0, 'loan_term': 4, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-02-29 13:24:06.0', 'bidding_start_time': None, 'full_time': None, 'status': 5}, {'id': 6, 'member_id': 146, 'title': '锋芒的22期python', 'amount': 100.0, 'loan_rate': 18.0, 'loan_term': 4, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-02-29 13:24:57.0', 'bidding_start_time': '2020-02-29 13:24:59.0', 'full_time': '2020-02-29 13:25:02.0', 'status': 3}, {'id': 7, 'member_id': 129, 'title': 'simple资金周转', 'amount': 6300.0, 'loan_rate': 12.0, 'loan_term': 12, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-02-29 13:25:32.0', 'bidding_start_time': '2020-03-02 17:40:55.0', 'full_time': '2020-03-03 23:03:24.0', 'status': 3}, {'id': 8, 'member_id': 129, 'title': 'simple资金周转', 'amount': 6500.0, 'loan_rate': 24.0, 'loan_term': 6, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2020-02-29 13:25:32.0', 'bidding_start_time': None, 'full_time': None, 'status': 5}, {'id': 9, 'member_id': 129, 'title': 'simple资金周转', 'amount': 6600.0, 'loan_rate': 12.6, 'loan_term': 30, 'loan_date_type': 2, 'bidding_days': 5, 'create_time': '2020-02-29 13:25:33.0', 'bidding_start_time': None, 'full_time': None, 'status': 5}, {'id': 10, 'member_id': 129, 'title': 'simpl', 'amount': 1000000.0, 'loan_rate': 23.9, 'loan_term': 30, 'loan_date_type': 2, 'bidding_days': 5, 'create_time': '2020-02-29 13:25:34.0', 'bidding_start_time': None, 'full_time': None, 'status': 5}], 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                ""
+            ]
+        },
+        {
+            "className": "UpdateTestCase",
+            "methodName": "test_update_1",
+            "description": "会员为空",
+            "spendTime": "0.428 s",
+            "status": "成功",
+            "log": [
+                "http://api.lemonban.com/futureloan/member/update",
                 "预期结果： {'code': 1, 'msg': '用户id为空'}",
                 "实际结果： {'code': 1, 'msg': '用户id为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
                 ""
             ]
         },
         {
-            "className": "AddTestCase",
-            "methodName": "test_add_03",
-            "description": "加标失败—标题为空",
-            "spendTime": "0.319 s",
+            "className": "UpdateTestCase",
+            "methodName": "test_update_2",
+            "description": "会员为字符串",
+            "spendTime": "0.328 s",
             "status": "成功",
             "log": [
-                "预期结果： {'code': 1, 'msg': '标题为空'}",
-                "实际结果： {'code': 1, 'msg': '标题为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                "http://api.lemonban.com/futureloan/member/update",
+                "预期结果： {'code': 2, 'msg': '数值参数格式错误'}",
+                "实际结果： {'code': 2, 'msg': '数值参数格式错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
                 ""
             ]
         },
         {
-            "className": "AddTestCase",
-            "methodName": "test_add_04",
-            "description": "加标失败—借款金额为空",
-            "spendTime": "0.331 s",
+            "className": "UpdateTestCase",
+            "methodName": "test_update_3",
+            "description": "昵称11位",
+            "spendTime": "0.46 s",
             "status": "成功",
             "log": [
-                "预期结果： {'code': 1, 'msg': '借款金额为空'}",
-                "实际结果： {'code': 1, 'msg': '借款金额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                "http://api.lemonban.com/futureloan/member/update",
+                "预期结果： {'code': 2, 'msg': '用户昵称长度超过10位'}",
+                "实际结果： {'code': 2, 'msg': '用户昵称长度超过10位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
                 ""
             ]
         },
         {
-            "className": "AddTestCase",
-            "methodName": "test_add_05",
-            "description": "加标失败—年利率为空",
-            "spendTime": "0.312 s",
+            "className": "UpdateTestCase",
+            "methodName": "test_update_4",
+            "description": "昵称为空",
+            "spendTime": "0.442 s",
             "status": "成功",
             "log": [
-                "预期结果： {'code': 1, 'msg': '利率为空'}",
-                "实际结果： {'code': 1, 'msg': '利率为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                "http://api.lemonban.com/futureloan/member/update",
+                "预期结果： {'code': 1, 'msg': '用户名为空'}",
+                "实际结果： {'code': 1, 'msg': '用户名为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
                 ""
             ]
         },
         {
-            "className": "AddTestCase",
-            "methodName": "test_add_06",
-            "description": "加标失败—借款期限为空",
-            "spendTime": "0.32 s",
+            "className": "UpdateTestCase",
+            "methodName": "test_update_5",
+            "description": "修改昵称成功",
+            "spendTime": "0.93 s",
             "status": "成功",
             "log": [
-                "预期结果： {'code': 1, 'msg': '借款期限为空'}",
-                "实际结果： {'code': 1, 'msg': '借款期限为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                "http://api.lemonban.com/futureloan/member/update",
+                "预期结果： {'code': 0, 'msg': 'OK'}",
+                "实际结果： {'code': 0, 'msg': 'OK', 'data': {'id': 281, 'leave_amount': 39869132.17, 'mobile_phone': '13367899876', 'reg_name': 'Mary', 'reg_time': '2020-02-29 14:18:43.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
                 ""
             ]
         },
         {
-            "className": "AddTestCase",
-            "methodName": "test_add_07",
-            "description": "加标失败—借款期限类型为空",
-            "spendTime": "0.323 s",
+            "className": "UserTestCase",
+            "methodName": "test_get_user_1",
+            "description": "普通会员信息",
+            "spendTime": "0.478 s",
             "status": "成功",
             "log": [
-                "预期结果： {'code': 1, 'msg': '借款日期类型为空'}",
-                "实际结果： {'code': 1, 'msg': '借款日期类型为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                "预期结果： {'code': 0, 'msg': 'OK'}",
+                "实际结果： {'code': 0, 'msg': 'OK', 'data': {'id': 281, 'leave_amount': 39869132.17, 'mobile_phone': '13367899876', 'reg_name': 'Mary', 'reg_time': '2020-02-29 14:18:43.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
                 ""
             ]
         },
         {
-            "className": "AddTestCase",
-            "methodName": "test_add_08",
-            "description": "加标失败—竞标天数为空",
-            "spendTime": "0.327 s",
+            "className": "UserTestCase",
+            "methodName": "test_get_user_2",
+            "description": "管理员信息",
+            "spendTime": "0.483 s",
             "status": "成功",
             "log": [
-                "预期结果： {'code': 1, 'msg': '竞标期限为空'}",
-                "实际结果： {'code': 1, 'msg': '竞标期限为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
+                "预期结果： {'code': 0, 'msg': 'OK'}",
+                "实际结果： {'code': 0, 'msg': 'OK', 'data': {'id': 8006461, 'leave_amount': 0.0, 'mobile_phone': '13367855566', 'reg_name': '广州小白', 'reg_time': '2020-03-31 21:26:13.0', 'type': 0}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
                 ""
             ]
         },
         {
-            "className": "AddTestCase",
-            "methodName": "test_add_09",
-            "description": "加标失败—借款人id不是当前登录用户",
-            "spendTime": "0.308 s",
+            "className": "UserTestCase",
+            "methodName": "test_get_user_3",
+            "description": "普通会员登录无法查看管理员信息",
+            "spendTime": "0.539 s",
             "status": "成功",
             "log": [
                 "预期结果： {'code': 1007, 'msg': '无权限访问，请检查参数'}",
                 "实际结果： {'code': 1007, 'msg': '无权限访问，请检查参数', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
                 ""
             ]
-        },
-        {
-            "className": "AddTestCase",
-            "methodName": "test_add_10",
-            "description": "加标失败—借款金额为负数",
-            "spendTime": "0.319 s",
-            "status": "成功",
-            "log": [
-                "预期结果： {'code': 2, 'msg': '借款金额范围错误'}",
-                "实际结果： {'code': 2, 'msg': '借款金额范围错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "AddTestCase",
-            "methodName": "test_add_11",
-            "description": "加标失败—借款金额为小数",
-            "spendTime": "0.318 s",
-            "status": "成功",
-            "log": [
-                "预期结果： {'code': 2, 'msg': '借款金额范围错误'}",
-                "实际结果： {'code': 2, 'msg': '借款金额范围错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "AuditTestCase",
-            "methodName": "test_audit_1",
-            "description": "审核通过",
-            "spendTime": "0.398 s",
-            "status": "成功",
-            "log": [
-                "预期结果： {'code': 0, 'msg': 'OK', 'status': 2}",
-                "实际结果： {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "AuditTestCase",
-            "methodName": "test_audit_2",
-            "description": "审核不通过",
-            "spendTime": "0.41 s",
-            "status": "成功",
-            "log": [
-                "预期结果： {'code': 0, 'msg': 'OK', 'status': 5}",
-                "实际结果： {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "AuditTestCase",
-            "methodName": "test_audit_3",
-            "description": "项目不待审核状态",
-            "spendTime": "0.094 s",
-            "status": "错误",
-            "log": [
-                "",
-                "Traceback (most recent call last):\n",
-                "  File \"E:\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
-                "  File \"E:\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 628, in run\n    testMethod()\n",
-                "  File \"D:\\Pywork\\py27_class\\py27_api_test\\lib\\myddt.py\", line 145, in wrapper\n    return func(self, *args, **kwargs)\n",
-                "  File \"D:\\Pywork\\py27_class\\py27_api_test\\testcases\\test_audit.py\", line 61, in test_audit\n    data = eval(case[\"data\"].replace(\"#loan_id#\", str(self.load_id)))\n",
-                "  File \"<string>\", line 1\n",
-                "    {\"loan_id\":#pass_loan_id#,\"approved_or_not\": False}\n",
-                "                                                      ^\n",
-                "SyntaxError: unexpected EOF while parsing\n"
-            ]
-        },
-        {
-            "className": "AuditTestCase",
-            "methodName": "test_audit_4",
-            "description": "参数approved_or_not为空",
-            "spendTime": "0.407 s",
-            "status": "成功",
-            "log": [
-                "预期结果： {'code': 1, 'msg': 'approved_or_not为空'}",
-                "实际结果： {'code': 1, 'msg': 'approved_or_not为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "AuditTestCase",
-            "methodName": "test_audit_5",
-            "description": "项目id为空",
-            "spendTime": "0.4 s",
-            "status": "成功",
-            "log": [
-                "预期结果： {'code': 1, 'msg': '项目id为空'}",
-                "实际结果： {'code': 1, 'msg': '项目id为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
-        },
-        {
-            "className": "AuditTestCase",
-            "methodName": "test_audit_6",
-            "description": "项目id不存在",
-            "spendTime": "0.391 s",
-            "status": "成功",
-            "log": [
-                "预期结果： {'code': 2, 'msg': '项目不存在'}",
-                "实际结果： {'code': 2, 'msg': '项目不存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}",
-                ""
-            ]
         }
     ],
     "testName": "柠檬班接口测试报告",
-    "testAll": 17,
-    "testFail": 1,
-    "beginTime": "2020-04-01 02:15:50",
-    "totalTime": "7s",
+    "testAll": 11,
+    "testFail": 0,
+    "beginTime": "2020-04-06 22:42:46",
+    "totalTime": "8s",
     "testSkip": 0,
     "testError": 0
 };

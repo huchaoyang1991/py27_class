@@ -25,7 +25,7 @@ class RechargeTestCase(unittest.TestCase):
     common = CommonService()
 
     @classmethod
-    def setUpClass(cls) -> None:
+    def setUpClass(cls) :
         cls.member_id, cls.token = cls.common.login()
 
     @data(*cases)

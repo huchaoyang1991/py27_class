@@ -25,4 +25,5 @@ class CommonService:
         log.debug("res={}".format(res))
         member_id = str(common_util.get_json_one(res, "$..id"))
         token = "Bearer" + " " + common_util.get_json_one(res, "$..token")
+
         return member_id, token

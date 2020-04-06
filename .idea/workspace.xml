@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d346e650-2bb1-46ce-8c6c-8896f6a3b8be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/py27_class.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/py27_class.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py27_api_test/testcases/test_recharge.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/py27_api_test/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/config/config.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/py27_api_test/data/apicases.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/data/apicases.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_api_test/logs/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/logs/all.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_api_test/logs/all.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/py27_api_test/reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/reports/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_api_test/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/run_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/py27_api_test/service/common_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/service/common_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_api_test/testcases/test_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/testcases/test_add.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_api_test/testcases/test_audit.py" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/testcases/test_audit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_api_test/testcases/test_lemon.py" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/testcases/1test_lemon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_api_test/testcases/test_recharge.py" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/testcases/1test_recharge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_api_test/testcases/1test_lemon.py" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/testcases/test_lemon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py27_api_test/testcases/1test_recharge.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,21 +78,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/py27_api_test/data" />
+    <property name="last_opened_file_path" value="D:/BaiduNetdiskDownload/py27_api_test" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Pywork\py27_class\py27_api_test\data" />
-      <recent name="D:\Pywork\py27_class" />
-      <recent name="D:\Pywork\py27_class\py27_20day" />
-      <recent name="D:\Pywork\py27_class\xmind" />
-      <recent name="D:\Pywork\py27_class\py27_17day\task_17day" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Pywork\py27_class" />
       <recent name="D:\Pywork\py27_class\py27_14day" />
       <recent name="D:\Pywork\py27_class\py27_02day" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Pywork\py27_class\py27_21day" />
+      <recent name="D:\Pywork\py27_class\py27_api_test\data" />
+      <recent name="D:\Pywork\py27_class" />
+      <recent name="D:\Pywork\py27_class\py27_20day" />
+      <recent name="D:\Pywork\py27_class\xmind" />
     </key>
   </component>
   <component name="RunManager" selected="Python.run_test">
@@ -162,7 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py27_class" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,11 +167,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py27_api_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py27_api_test/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py27_api_test/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py27_api_test/test/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,7 +180,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_lemon.LemonTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_undate.UpdateTestCase.test_recharge" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="py27_class" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -193,17 +190,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_lemon.LemonTestCase&quot;" />
+      <option name="_new_target" value="&quot;test_undate.UpdateTestCase.test_recharge&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.run_test" />
+        <item itemvalue="Python tests.Unittests for test_undate.UpdateTestCase.test_recharge" />
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.common_util" />
         <item itemvalue="Python.common_service" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python tests.Unittests for test_lemon.LemonTestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +255,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -269,26 +268,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585492750088" />
-    <state x="1118" y="383" key="FileChooserDialogImpl" timestamp="1584454411707">
+    <state x="1118" y="383" key="FileChooserDialogImpl" timestamp="1586178988107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1118" y="383" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584454411707" />
-    <state width="1898" height="286" key="GridCell.Tab.0.bottom" timestamp="1585678547988">
+    <state x="1118" y="383" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586178988107" />
+    <state width="1898" height="286" key="GridCell.Tab.0.bottom" timestamp="1586184285826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585678547988" />
-    <state width="1898" height="286" key="GridCell.Tab.0.center" timestamp="1585678547988">
+    <state width="1898" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586184285826" />
+    <state width="1898" height="286" key="GridCell.Tab.0.center" timestamp="1586184285826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585678547988" />
-    <state width="1898" height="286" key="GridCell.Tab.0.left" timestamp="1585678547988">
+    <state width="1898" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586184285826" />
+    <state width="1898" height="286" key="GridCell.Tab.0.left" timestamp="1586184285826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585678547988" />
-    <state width="1898" height="286" key="GridCell.Tab.0.right" timestamp="1585678547988">
+    <state width="1898" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586184285826" />
+    <state width="1898" height="286" key="GridCell.Tab.0.right" timestamp="1586184285826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585678547988" />
+    <state width="1898" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586184285826" />
     <state x="824" y="241" key="RollbackChangesDialog" timestamp="1585486148806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -309,10 +308,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="758" y="204" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585486129889" />
-    <state width="600" height="424" key="javadoc.popup" timestamp="1585678280822">
+    <state width="600" height="424" key="javadoc.popup" timestamp="1586182906488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="600" height="424" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585678280822" />
+    <state width="600" height="424" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586182906488" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585322922043">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

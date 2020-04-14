@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d346e650-2bb1-46ce-8c6c-8896f6a3b8be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/py27_api_test/testcases/test_recharge.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_api_test/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/config/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_api_test/data/apicases.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/data/apicases.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_api_test/logs/all.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_api_test/reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/reports/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_api_test/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/run_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_api_test/service/common_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/service/common_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_api_test/testcases/1test_lemon.py" beforeDir="false" afterPath="$PROJECT_DIR$/py27_api_test/testcases/test_lemon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py27_api_test/testcases/1test_recharge.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,21 +69,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/BaiduNetdiskDownload/py27_api_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/py27_26day" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Pywork\py27_class" />
-      <recent name="D:\Pywork\py27_class\py27_14day" />
-      <recent name="D:\Pywork\py27_class\py27_02day" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Pywork\py27_class\py27_26day" />
       <recent name="D:\Pywork\py27_class\py27_21day" />
       <recent name="D:\Pywork\py27_class\py27_api_test\data" />
       <recent name="D:\Pywork\py27_class" />
       <recent name="D:\Pywork\py27_class\py27_20day" />
-      <recent name="D:\Pywork\py27_class\xmind" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Pywork\py27_class" />
+      <recent name="D:\Pywork\py27_class\py27_14day" />
+      <recent name="D:\Pywork\py27_class\py27_02day" />
     </key>
   </component>
   <component name="RunManager" selected="Python.run_test">
@@ -272,22 +263,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1118" y="383" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586178988107" />
-    <state width="1898" height="286" key="GridCell.Tab.0.bottom" timestamp="1586184285826">
+    <state width="1898" height="286" key="GridCell.Tab.0.bottom" timestamp="1586184414754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586184285826" />
-    <state width="1898" height="286" key="GridCell.Tab.0.center" timestamp="1586184285826">
+    <state width="1898" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586184414754" />
+    <state width="1898" height="286" key="GridCell.Tab.0.center" timestamp="1586184414754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586184285826" />
-    <state width="1898" height="286" key="GridCell.Tab.0.left" timestamp="1586184285826">
+    <state width="1898" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586184414754" />
+    <state width="1898" height="286" key="GridCell.Tab.0.left" timestamp="1586184414753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586184285826" />
-    <state width="1898" height="286" key="GridCell.Tab.0.right" timestamp="1586184285826">
+    <state width="1898" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586184414753" />
+    <state width="1898" height="286" key="GridCell.Tab.0.right" timestamp="1586184414754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586184285826" />
+    <state width="1898" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586184414754" />
     <state x="824" y="241" key="RollbackChangesDialog" timestamp="1585486148806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
